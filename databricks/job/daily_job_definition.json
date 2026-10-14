@@ -1,0 +1,33 @@
+{
+  "name": "crm_poc_daily_refresh",
+  "schedule": {
+    "quartz_cron_expression": "0 0 7 * * ?",
+    "timezone_id": "Asia/Calcutta",
+    "pause_status": "UNPAUSED"
+  },
+  "email_notifications": {
+    "on_failure": ["<your-email>"]
+  },
+  "tasks": [
+    {
+      "task_key": "ingest_salesforce",
+      "pipeline_task": { "pipeline_id": "<PIPELINE_ID>" }
+    },
+    {
+      "task_key": "build_silver",
+      "depends_on": [{ "task_key": "ingest_salesforce" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<your-email>/crm_poc/05_silver_cleaning_and_quality",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "build_gold",
+      "depends_on": [{ "task_key": "build_silver" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<your-email>/crm_poc/06_gold_tables_and_ai_scoring",
+        "source": "WORKSPACE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "crm_poc_salesforce_ingestion",
+  "catalog": "crm_poc",
+  "schema": "bronze",
+  "ingestion_definition": {
+    "connection_name": "salesforce_lakeflow_poc_connection",
+    "objects": [
+      { "table": { "source_schema": "objects", "source_table": "Account",     "destination_catalog": "crm_poc", "destination_schema": "bronze" } },
+      { "table": { "source_schema": "objects", "source_table": "Contact",     "destination_catalog": "crm_poc", "destination_schema": "bronze" } },
+      { "table": { "source_schema": "objects", "source_table": "Lead",        "destination_catalog": "crm_poc", "destination_schema": "bronze" } },
+      { "table": { "source_schema": "objects", "source_table": "Opportunity", "destination_catalog": "crm_poc", "destination_schema": "bronze" } }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+Opportunity Name,Account Name,Stage,Amount,Close Date,Probability (%),Lead Source,Type
+Nova Pharma - CRM Rollout,Nova Pharma,Needs Analysis,5000000,2026-12-15,20,Web,Existing Customer - Upgrade
+Trident Energy - Analytics Suite,Trident Energy,Closed Won,300000,2026-03-02,100,Partner Referral,New Customer
+Bluechip Infra - Analytics Suite,Bluechip Infra,Closed Lost,800000,2026-02-15,0,Partner Referral,New Customer
+Trident Textiles - Mobile App,Trident Textiles,Needs Analysis,3000000,2026-12-31,20,Purchased List,Existing Customer - Renewal
+Sapphire Textiles - Security Audit,Sapphire Textiles,Qualification,2000000,2026-10-26,10,Purchased List,Existing Customer - Renewal
+Bluechip Textiles - Annual Support,Bluechip Textiles,Closed Won,200000,2026-06-21,100,Web,Existing Customer - Renewal
+Indus Foods - Data Platform,Indus Foods,Closed Won,1000000,2026-02-14,100,Partner Referral,Existing Customer - Upgrade
+Nova Retail - Security Audit,Nova Retail,Negotiation/Review,200000,2026-09-19,90,Web,New Customer
+Vedanta Retail - Security Audit,Vedanta Retail,Negotiation/Review,1000000,2026-08-12,90,Web,New Customer
+Apex Solutions - Mobile App,Apex Solutions,Closed Lost,3000000,2026-10-02,0,Partner Referral,Existing Customer - Renewal
+Nova Steel - Cloud Migration,Nova Steel,Proposal/Price Quote,1500000,2026-07-07,75,Web,Existing Customer - Renewal
+Nova Retail - CRM Rollout,Nova Retail,Closed Won,300000,2026-06-10,100,Phone Inquiry,Existing Customer - Renewal
+Trident Textiles - Annual Support,Trident Textiles,Closed Won,3000000,2026-01-19,100,Web,Existing Customer - Renewal
+Godavari Infra - Analytics Suite,Godavari Infra,Proposal/Price Quote,3000000,2026-07-27,75,Web,New Customer
+Apex Solutions - Cloud Migration,Apex Solutions,Negotiation/Review,300000,2026-08-11,90,Web,New Customer
+Trident Textiles - Analytics Suite,Trident Textiles,Closed Won,5000000,2026-04-03,100,Partner Referral,New Customer
+Lotus Textiles - Mobile App,Lotus Textiles,Negotiation/Review,1000000,2026-12-12,90,Purchased List,Existing Customer - Renewal
+Vedanta Energy - Cloud Migration,Vedanta Energy,Closed Lost,800000,2026-03-16,0,Phone Inquiry,Existing Customer - Upgrade
+Bluechip Infra - Mobile App,Bluechip Infra,Proposal/Price Quote,2000000,2026-02-16,75,Web,Existing Customer - Upgrade
+Sunrise Foods - Analytics Suite,Sunrise Foods,Value Proposition,500000,2026-12-18,50,Purchased List,Existing Customer - Renewal
+Bluechip Pharma - CRM Rollout,Bluechip Pharma,Closed Lost,1000000,2026-03-23,0,Purchased List,Existing Customer - Renewal
+Trident Steel - Annual Support,Trident Steel,Proposal/Price Quote,500000,2026-12-28,75,Web,Existing Customer - Upgrade
+Kaveri Pharma - Mobile App,Kaveri Pharma,Proposal/Price Quote,800000,2026-03-19,75,Phone Inquiry,New Customer
+Kaveri Pharma - Security Audit,Kaveri Pharma,Closed Lost,800000,2026-03-21,0,Partner Referral,Existing Customer - Renewal
+Apex Textiles - Mobile App,Apex Textiles,Closed Won,500000,2026-08-26,100,Phone Inquiry,Existing Customer - Renewal
+Krishna Solutions - ERP Upgrade,Krishna Solutions,Closed Lost,300000,2026-01-20,0,Partner Referral,New Customer
+Sahyadri Logistics - ERP Upgrade,Sahyadri Logistics,Closed Won,200000,2026-05-29,100,Purchased List,Existing Customer - Upgrade
+Vedanta Solutions - ERP Upgrade,Vedanta Solutions,Closed Won,1000000,2026-04-13,100,Partner Referral,Existing Customer - Renewal
+Sunrise Textiles - ERP Upgrade,Sunrise Textiles,Closed Won,1000000,2026-04-14,100,Purchased List,New Customer
+Nova Steel - Data Platform,Nova Steel,Closed Lost,300000,2026-01-17,0,Other,Existing Customer - Upgrade
+Everest Textiles - Cloud Migration,Everest Textiles,Needs Analysis,200000,2026-12-03,20,Web,Existing Customer - Upgrade
+Lotus Motors - Analytics Suite,Lotus Motors,Closed Won,1500000,2026-05-07,100,Web,Existing Customer - Upgrade
+Trident Steel - ERP Upgrade,Trident Steel,Value Proposition,300000,2026-10-14,50,Partner Referral,New Customer
+Trident Motors - Cloud Migration,Trident Motors,Value Proposition,3000000,2026-11-01,50,Web,New Customer
+Neelkanth Logistics - ERP Upgrade,Neelkanth Logistics,Closed Lost,500000,2026-07-31,0,Phone Inquiry,Existing Customer - Upgrade
+Apex Technologies - Annual Support,Apex Technologies,Negotiation/Review,500000,2026-12-06,90,Phone Inquiry,Existing Customer - Renewal
+Apex Textiles - Annual Support,Apex Textiles,Closed Lost,3000000,2026-01-03,0,Web,Existing Customer - Upgrade
+Bluechip Infra - ERP Upgrade,Bluechip Infra,Closed Won,3000000,2026-05-03,100,Web,Existing Customer - Renewal
+Bluechip Motors - Annual Support,Bluechip Motors,Closed Won,5000000,2026-08-28,100,Web,Existing Customer - Upgrade
+Krishna Infra - Mobile App,Krishna Infra,Closed Won,800000,2026-05-26,100,Other,New Customer
+Sunrise Infra - Mobile App,Sunrise Infra,Closed Won,200000,2026-02-18,100,Phone Inquiry,Existing Customer - Renewal
+Nova Solutions - Mobile App,Nova Solutions,Negotiation/Review,800000,2026-12-19,90,Web,New Customer
+Bluechip Textiles - Data Platform,Bluechip Textiles,Closed Won,5000000,2026-01-16,100,Web,Existing Customer - Renewal
+Vedanta Solutions - ERP Upgrade,Vedanta Solutions,Closed Lost,800000,2026-02-13,0,Web,Existing Customer - Renewal
+Trident Energy - CRM Rollout,Trident Energy,Closed Won,1500000,2026-05-06,100,Other,New Customer
+Godavari Infra - Cloud Migration,Godavari Infra,Closed Won,3000000,2026-06-05,100,Partner Referral,New Customer
+Apex Energy - Annual Support,Apex Energy,Closed Lost,200000,2026-07-30,0,Web,New Customer
+Bluechip Textiles - Cloud Migration,Bluechip Textiles,Closed Lost,500000,2026-03-19,0,Web,New Customer
+Sapphire Energy - Annual Support,Sapphire Energy,Prospecting,200000,2026-12-29,10,Purchased List,Existing Customer - Upgrade
+Apex Motors - Analytics Suite,Apex Motors,Closed Lost,300000,2026-09-27,0,Purchased List,Existing Customer - Renewal
+Apex Technologies - Mobile App,Apex Technologies,Prospecting,1500000,2026-11-17,10,Purchased List,New Customer
+Sahyadri Logistics - Annual Support,Sahyadri Logistics,Qualification,3000000,2026-10-26,10,Partner Referral,Existing Customer - Renewal
+Lotus Textiles - Cloud Migration,Lotus Textiles,Closed Lost,1000000,2026-05-13,0,Other,Existing Customer - Renewal
+Lotus Pharma - Cloud Migration,Lotus Pharma,Closed Won,5000000,2026-08-11,100,Web,Existing Customer - Renewal
+Nova Pharma - ERP Upgrade,Nova Pharma,Proposal/Price Quote,1000000,2026-02-04,75,Purchased List,New Customer
+Godavari Technologies - Mobile App,Godavari Technologies,Value Proposition,5000000,2026-10-28,50,Web,Existing Customer - Upgrade
+Nova Solutions - CRM Rollout,Nova Solutions,Closed Lost,2000000,2026-07-20,0,Purchased List,Existing Customer - Renewal
+Trident Energy - Annual Support,Trident Energy,Closed Won,300000,2026-07-14,100,Web,Existing Customer - Renewal
+Vedanta Energy - Annual Support,Vedanta Energy,Proposal/Price Quote,2000000,2026-12-06,75,Purchased List,New Customer
+Indus Technologies - Analytics Suite,Indus Technologies,Prospecting,300000,2026-11-06,10,Purchased List,Existing Customer - Upgrade
+Krishna Steel - Security Audit,Krishna Steel,Needs Analysis,3000000,2026-11-06,20,Web,Existing Customer - Renewal
+Godavari Infra - ERP Upgrade,Godavari Infra,Closed Won,3000000,2026-07-01,100,Partner Referral,Existing Customer - Upgrade
+Kaveri Solutions - ERP Upgrade,Kaveri Solutions,Closed Won,3000000,2026-05-19,100,Phone Inquiry,Existing Customer - Renewal
+Trident Steel - Mobile App,Trident Steel,Closed Won,200000,2026-03-03,100,Phone Inquiry,New Customer
+Krishna Logistics - Data Platform,Krishna Logistics,Proposal/Price Quote,1500000,2026-06-20,75,Web,Existing Customer - Upgrade
+Vedanta Solutions - Security Audit,Vedanta Solutions,Closed Won,5000000,2026-06-07,100,Purchased List,Existing Customer - Renewal
+Everest Textiles - Cloud Migration,Everest Textiles,Closed Won,200000,2026-07-20,100,Purchased List,New Customer
+Godavari Technologies - Analytics Suite,Godavari Technologies,Negotiation/Review,1000000,2026-10-17,90,Partner Referral,Existing Customer - Renewal
+Bluechip Infra - Security Audit,Bluechip Infra,Negotiation/Review,1000000,2026-03-11,90,Partner Referral,New Customer
+Neelkanth Logistics - Annual Support,Neelkanth Logistics,Closed Won,1000000,2026-08-16,100,Phone Inquiry,Existing Customer - Renewal
+Sunrise Foods - Security Audit,Sunrise Foods,Closed Lost,200000,2026-09-25,0,Other,Existing Customer - Upgrade
+Lotus Textiles - Annual Support,Lotus Textiles,Prospecting,200000,2026-12-21,10,Purchased List,Existing Customer - Renewal
+Bluechip Motors - Security Audit,Bluechip Motors,Closed Won,5000000,2026-08-18,100,Purchased List,Existing Customer - Renewal
+Orbit Motors - Analytics Suite,Orbit Motors,Proposal/Price Quote,3000000,2026-01-18,75,Web,Existing Customer - Upgrade
+Bluechip Textiles - Mobile App,Bluechip Textiles,Proposal/Price Quote,5000000,2026-10-28,75,Web,Existing Customer - Upgrade
+Everest Solutions - Data Platform,Everest Solutions,Qualification,1000000,2026-11-18,10,Purchased List,New Customer
+Krishna Steel - Security Audit,Krishna Steel,Prospecting,2000000,2026-11-29,10,Phone Inquiry,Existing Customer - Renewal
+Krishna Infra - Data Platform,Krishna Infra,Closed Won,3000000,2026-06-15,100,Purchased List,Existing Customer - Renewal
+Krishna Foods - Cloud Migration,Krishna Foods,Closed Won,200000,2026-04-13,100,Web,Existing Customer - Renewal
+Nova Energy - Cloud Migration,Nova Energy,Needs Analysis,200000,2026-12-15,20,Partner Referral,Existing Customer - Upgrade
+Trident Energy - Annual Support,Trident Energy,Qualification,1000000,2026-12-22,10,Web,Existing Customer - Upgrade
+Everest Textiles - Annual Support,Everest Textiles,Closed Won,1000000,2026-08-13,100,Phone Inquiry,Existing Customer - Upgrade
+Krishna Logistics - Analytics Suite,Krishna Logistics,Closed Won,3000000,2026-05-17,100,Phone Inquiry,Existing Customer - Upgrade
+Sahyadri Finance - Cloud Migration,Sahyadri Finance,Closed Won,1000000,2026-06-11,100,Purchased List,Existing Customer - Upgrade
+Sahyadri Motors - Security Audit,Sahyadri Motors,Closed Won,1500000,2026-02-09,100,Partner Referral,Existing Customer - Upgrade
+Nova Energy - Data Platform,Nova Energy,Prospecting,1000000,2026-11-19,10,Phone Inquiry,New Customer
+Apex Motors - Data Platform,Apex Motors,Closed Lost,1500000,2026-07-01,0,Web,New Customer
+Vedanta Solutions - ERP Upgrade,Vedanta Solutions,Prospecting,2000000,2026-10-08,10,Purchased List,Existing Customer - Renewal
+Bluechip Motors - Data Platform,Bluechip Motors,Closed Lost,300000,2026-03-26,0,Purchased List,Existing Customer - Upgrade
+Vedanta Energy - Annual Support,Vedanta Energy,Closed Won,1500000,2026-07-24,100,Web,New Customer
+Sunrise Foods - Cloud Migration,Sunrise Foods,Closed Lost,2000000,2026-09-30,0,Partner Referral,Existing Customer - Upgrade
+Bluechip Pharma - Mobile App,Bluechip Pharma,Closed Lost,2000000,2026-06-23,0,Web,New Customer
+Vedanta Logistics - Mobile App,Vedanta Logistics,Value Proposition,2000000,2026-10-23,50,Web,Existing Customer - Renewal
+Indus Foods - Cloud Migration,Indus Foods,Closed Won,800000,2026-03-19,100,Phone Inquiry,Existing Customer - Upgrade
+Zenith Logistics - CRM Rollout,Zenith Logistics,Value Proposition,1000000,2026-11-29,50,Web,Existing Customer - Renewal
+Vedanta Solutions - Security Audit,Vedanta Solutions,Needs Analysis,300000,2026-11-10,20,Purchased List,Existing Customer - Renewal
+Trident Textiles - Data Platform,Trident Textiles,Qualification,800000,2026-11-08,10,Web,Existing Customer - Upgrade
+Sapphire Energy - ERP Upgrade,Sapphire Energy,Closed Won,5000000,2026-07-04,100,Web,Existing Customer - Upgrade
+Godavari Infra - CRM Rollout,Godavari Infra,Closed Lost,500000,2026-08-23,0,Phone Inquiry,Existing Customer - Renewal
+Apex Solutions - Analytics Suite,Apex Solutions,Proposal/Price Quote,200000,2026-10-30,75,Web,Existing Customer - Upgrade
+Bluechip Motors - Analytics Suite,Bluechip Motors,Closed Won,1500000,2026-04-25,100,Other,Existing Customer - Renewal
+Nova Solutions - Mobile App,Nova Solutions,Closed Lost,800000,2026-04-22,0,Web,Existing Customer - Renewal
+Nova Pharma - CRM Rollout,Nova Pharma,Closed Lost,200000,2026-04-25,0,Purchased List,Existing Customer - Upgrade
+Krishna Technologies - Annual Support,Krishna Technologies,Proposal/Price Quote,1000000,2026-02-02,75,Partner Referral,Existing Customer - Renewal
+Bluechip Motors - Security Audit,Bluechip Motors,Closed Won,2000000,2026-07-19,100,Web,New Customer
+Trident Steel - Annual Support,Trident Steel,Closed Won,1000000,2026-09-30,100,Web,Existing Customer - Upgrade
+Nova Solutions - Cloud Migration,Nova Solutions,Closed Won,3000000,2026-08-09,100,Web,Existing Customer - Renewal
+Everest Textiles - ERP Upgrade,Everest Textiles,Closed Won,800000,2026-07-26,100,Web,Existing Customer - Renewal
+Apex Infra - Analytics Suite,Apex Infra,Closed Lost,800000,2026-04-12,0,Purchased List,New Customer
+Nova Retail - Data Platform,Nova Retail,Negotiation/Review,200000,2026-01-12,90,Web,New Customer
+Krishna Steel - CRM Rollout,Krishna Steel,Negotiation/Review,5000000,2026-11-25,90,Web,Existing Customer - Upgrade
+Sahyadri Finance - Cloud Migration,Sahyadri Finance,Negotiation/Review,1500000,2026-10-17,90,Other,Existing Customer - Upgrade
+Bluechip Infra - CRM Rollout,Bluechip Infra,Closed Lost,2000000,2026-03-31,0,Purchased List,Existing Customer - Renewal
+Lotus Pharma - ERP Upgrade,Lotus Pharma,Closed Won,500000,2026-06-25,100,Phone Inquiry,Existing Customer - Upgrade
+Lotus Textiles - ERP Upgrade,Lotus Textiles,Closed Lost,3000000,2026-06-22,0,Purchased List,New Customer
+Vedanta Logistics - ERP Upgrade,Vedanta Logistics,Closed Lost,5000000,2026-09-28,0,Phone Inquiry,Existing Customer - Upgrade
+Harmony Pharma - CRM Rollout,Harmony Pharma,Closed Lost,5000000,2026-04-09,0,Phone Inquiry,Existing Customer - Renewal
+Sunrise Infra - Security Audit,Sunrise Infra,Closed Lost,2000000,2026-03-24,0,Web,New Customer
+Bluechip Motors - Mobile App,Bluechip Motors,Proposal/Price Quote,2000000,2026-10-27,75,Web,New Customer
+Lotus Pharma - CRM Rollout,Lotus Pharma,Negotiation/Review,5000000,2026-04-15,90,Other,Existing Customer - Upgrade
+Kaveri Solutions - Analytics Suite,Kaveri Solutions,Closed Lost,800000,2026-09-06,0,Web,New Customer
+Zenith Logistics - Annual Support,Zenith Logistics,Negotiation/Review,300000,2026-07-15,90,Partner Referral,New Customer
+Everest Textiles - Analytics Suite,Everest Textiles,Closed Lost,3000000,2026-08-22,0,Purchased List,Existing Customer - Renewal
+Sunrise Infra - CRM Rollout,Sunrise Infra,Closed Won,800000,2026-08-29,100,Partner Referral,Existing Customer - Upgrade
+Sapphire Textiles - Analytics Suite,Sapphire Textiles,Qualification,300000,2026-11-07,10,Other,Existing Customer - Renewal
+Krishna Logistics - ERP Upgrade,Krishna Logistics,Qualification,800000,2026-12-25,10,Web,Existing Customer - Renewal
+Trident Motors - Mobile App,Trident Motors,Negotiation/Review,200000,2026-11-21,90,Web,New Customer
+Trident Steel - CRM Rollout,Trident Steel,Closed Won,2000000,2026-01-20,100,Web,New Customer
+Trident Energy - CRM Rollout,Trident Energy,Negotiation/Review,2000000,2026-10-12,90,Web,New Customer
+Lotus Pharma - CRM Rollout,Lotus Pharma,Closed Lost,300000,2026-09-03,0,Purchased List,Existing Customer - Renewal
+Bluechip Infra - Cloud Migration,Bluechip Infra,Closed Lost,500000,2026-03-15,0,Partner Referral,Existing Customer - Upgrade
+Bluechip Infra - Security Audit,Bluechip Infra,Closed Won,200000,2026-01-02,100,Partner Referral,New Customer
+Neelkanth Logistics - ERP Upgrade,Neelkanth Logistics,Prospecting,5000000,2026-12-28,10,Partner Referral,Existing Customer - Upgrade
+Krishna Solutions - CRM Rollout,Krishna Solutions,Negotiation/Review,800000,2026-10-14,90,Web,Existing Customer - Renewal
+Trident Steel - Analytics Suite,Trident Steel,Closed Won,800000,2026-04-17,100,Partner Referral,New Customer
+Orbit Pharma - ERP Upgrade,Orbit Pharma,Proposal/Price Quote,1500000,2026-10-07,75,Partner Referral,New Customer
+Sunrise Infra - Mobile App,Sunrise Infra,Closed Won,1000000,2026-02-21,100,Web,Existing Customer - Upgrade
+Bluechip Textiles - Analytics Suite,Bluechip Textiles,Proposal/Price Quote,1500000,2026-11-07,75,Purchased List,New Customer
+Apex Textiles - ERP Upgrade,Apex Textiles,Closed Won,800000,2026-01-23,100,Phone Inquiry,Existing Customer - Upgrade
+Krishna Steel - Mobile App,Krishna Steel,Negotiation/Review,200000,2026-02-10,90,Partner Referral,New Customer
+Sahyadri Motors - Cloud Migration,Sahyadri Motors,Closed Lost,200000,2026-08-09,0,Web,Existing Customer - Upgrade
+Lotus Motors - Data Platform,Lotus Motors,Qualification,1000000,2026-12-28,10,Purchased List,Existing Customer - Upgrade
+Apex Infra - Annual Support,Apex Infra,Closed Won,3000000,2026-07-15,100,Web,Existing Customer - Renewal
+Sahyadri Logistics - Analytics Suite,Sahyadri Logistics,Needs Analysis,1000000,2026-11-16,20,Purchased List,New Customer
+Krishna Steel - CRM Rollout,Krishna Steel,Closed Won,1500000,2026-06-24,100,Other,Existing Customer - Upgrade
+Apex Energy - Mobile App,Apex Energy,Closed Lost,5000000,2026-06-25,0,Web,New Customer
+Trident Textiles - Annual Support,Trident Textiles,Closed Lost,1500000,2026-08-06,0,Web,New Customer
+Lotus Pharma - Cloud Migration,Lotus Pharma,Closed Won,5000000,2026-04-19,100,Web,Existing Customer - Upgrade
+Zenith Technologies - ERP Upgrade,Zenith Technologies,Qualification,800000,2026-11-28,10,Web,New Customer
+Sunrise Foods - Data Platform,Sunrise Foods,Closed Lost,500000,2026-08-09,0,Partner Referral,Existing Customer - Renewal
+Sapphire Energy - Cloud Migration,Sapphire Energy,Negotiation/Review,1000000,2026-12-20,90,Purchased List,New Customer
+Kaveri Solutions - Data Platform,Kaveri Solutions,Closed Won,800000,2026-01-15,100,Partner Referral,Existing Customer - Renewal
+Sahyadri Logistics - Cloud Migration,Sahyadri Logistics,Prospecting,300000,2026-12-02,10,Partner Referral,Existing Customer - Upgrade
+Apex Technologies - ERP Upgrade,Apex Technologies,Closed Won,300000,2026-02-04,100,Phone Inquiry,New Customer
+Nova Retail - ERP Upgrade,Nova Retail,Closed Lost,5000000,2026-09-10,0,Partner Referral,Existing Customer - Upgrade
+Zenith Steel - Analytics Suite,Zenith Steel,Negotiation/Review,1000000,2026-04-02,90,Web,Existing Customer - Upgrade
+Sapphire Textiles - Cloud Migration,Sapphire Textiles,Proposal/Price Quote,300000,2026-08-16,75,Purchased List,Existing Customer - Upgrade
+Kaveri Solutions - Annual Support,Kaveri Solutions,Closed Won,800000,2026-04-16,100,Web,New Customer
+Trident Steel - Annual Support,Trident Steel,Needs Analysis,1000000,2026-12-10,20,Partner Referral,New Customer
+Apex Technologies - ERP Upgrade,Apex Technologies,Closed Lost,1000000,2026-03-22,0,Partner Referral,New Customer
+Apex Motors - Cloud Migration,Apex Motors,Closed Won,200000,2026-09-04,100,Phone Inquiry,Existing Customer - Renewal
+Apex Textiles - Mobile App,Apex Textiles,Closed Won,200000,2026-02-01,100,Web,New Customer
+Zenith Technologies - Annual Support,Zenith Technologies,Closed Won,500000,2026-07-06,100,Web,Existing Customer - Renewal
+Harmony Pharma - Annual Support,Harmony Pharma,Closed Won,300000,2026-07-07,100,Purchased List,New Customer
+Indus Logistics - Security Audit,Indus Logistics,Closed Won,800000,2026-01-16,100,Purchased List,Existing Customer - Upgrade
+Vedanta Logistics - Annual Support,Vedanta Logistics,Closed Lost,3000000,2026-05-04,0,Web,New Customer
+Apex Solutions - ERP Upgrade,Apex Solutions,Value Proposition,1500000,2026-12-06,50,Web,New Customer
+Lotus Technologies - Analytics Suite,Lotus Technologies,Closed Won,3000000,2026-09-07,100,Partner Referral,Existing Customer - Upgrade
+Apex Textiles - Security Audit,Apex Textiles,Closed Won,500000,2026-03-02,100,Other,Existing Customer - Upgrade
+Lotus Motors - CRM Rollout,Lotus Motors,Closed Won,1000000,2026-03-02,100,Phone Inquiry,Existing Customer - Upgrade
+Godavari Technologies - Annual Support,Godavari Technologies,Prospecting,300000,2026-10-12,10,Phone Inquiry,Existing Customer - Upgrade
+Sunrise Pharma - Mobile App,Sunrise Pharma,Proposal/Price Quote,2000000,2026-10-16,75,Web,Existing Customer - Upgrade
+Nova Energy - CRM Rollout,Nova Energy,Closed Won,5000000,2026-05-03,100,Purchased List,New Customer
+Bluechip Infra - ERP Upgrade,Bluechip Infra,Closed Won,3000000,2026-09-02,100,Purchased List,New Customer
+Apex Technologies - Analytics Suite,Apex Technologies,Needs Analysis,300000,2026-11-20,20,Web,Existing Customer - Renewal
+Trident Motors - Annual Support,Trident Motors,Closed Won,3000000,2026-02-04,100,Phone Inquiry,New Customer
+Neelkanth Logistics - CRM Rollout,Neelkanth Logistics,Negotiation/Review,5000000,2026-11-18,90,Other,Existing Customer - Renewal
+Lotus Technologies - CRM Rollout,Lotus Technologies,Closed Lost,3000000,2026-10-03,0,Partner Referral,New Customer
+Sahyadri Logistics - Annual Support,Sahyadri Logistics,Closed Won,1500000,2026-03-16,100,Partner Referral,Existing Customer - Upgrade
+Sahyadri Motors - Cloud Migration,Sahyadri Motors,Qualification,200000,2026-12-25,10,Partner Referral,Existing Customer - Renewal
+Apex Textiles - Analytics Suite,Apex Textiles,Negotiation/Review,1000000,2026-04-22,90,Phone Inquiry,New Customer
+Vedanta Energy - Mobile App,Vedanta Energy,Closed Lost,800000,2026-06-05,0,Other,Existing Customer - Upgrade
+Apex Infra - Cloud Migration,Apex Infra,Closed Won,3000000,2026-01-07,100,Web,Existing Customer - Upgrade
+Krishna Infra - Analytics Suite,Krishna Infra,Qualification,800000,2026-12-11,10,Web,Existing Customer - Upgrade
+Everest Textiles - Data Platform,Everest Textiles,Closed Won,1500000,2026-08-22,100,Web,New Customer
+Kaveri Solutions - Security Audit,Kaveri Solutions,Negotiation/Review,200000,2026-12-09,90,Partner Referral,New Customer
+Godavari Technologies - CRM Rollout,Godavari Technologies,Closed Lost,1000000,2026-03-21,0,Partner Referral,Existing Customer - Upgrade
+Nova Retail - Security Audit,Nova Retail,Closed Won,5000000,2026-03-12,100,Web,Existing Customer - Upgrade
+Bluechip Textiles - Cloud Migration,Bluechip Textiles,Closed Won,1500000,2026-09-25,100,Purchased List,New Customer
+Everest Finance - Mobile App,Everest Finance,Closed Won,3000000,2026-08-05,100,Purchased List,Existing Customer - Upgrade
+Vedanta Solutions - Mobile App,Vedanta Solutions,Proposal/Price Quote,1000000,2026-03-19,75,Other,Existing Customer - Renewal
+Krishna Steel - ERP Upgrade,Krishna Steel,Closed Won,300000,2026-01-27,100,Other,Existing Customer - Upgrade
+Apex Technologies - Data Platform,Apex Technologies,Negotiation/Review,2000000,2026-03-31,90,Web,Existing Customer - Upgrade
+Vedanta Logistics - Data Platform,Vedanta Logistics,Negotiation/Review,5000000,2026-12-06,90,Partner Referral,Existing Customer - Upgrade
+Godavari Technologies - Analytics Suite,Godavari Technologies,Proposal/Price Quote,1500000,2026-12-03,75,Purchased List,Existing Customer - Renewal
+Everest Textiles - Security Audit,Everest Textiles,Closed Lost,1000000,2026-02-08,0,Partner Referral,New Customer
+Vedanta Retail - Data Platform,Vedanta Retail,Qualification,2000000,2026-11-26,10,Phone Inquiry,Existing Customer - Renewal
+Harmony Pharma - ERP Upgrade,Harmony Pharma,Negotiation/Review,200000,2026-12-25,90,Partner Referral,Existing Customer - Upgrade
+Godavari Infra - Annual Support,Godavari Infra,Closed Won,1500000,2026-01-05,100,Partner Referral,Existing Customer - Renewal
+Sahyadri Logistics - Cloud Migration,Sahyadri Logistics,Proposal/Price Quote,800000,2026-08-27,75,Other,New Customer

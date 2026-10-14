@@ -1,0 +1,251 @@
+First Name,Last Name,Company,Title,Email,Phone,Lead Source,Lead Status,Industry,City,State,Country,Rating
+Lakshmi,Das,Harmony Logistics,Sales Director,lakshmi.das0@harmonylogistics.in,+91 9214972063,Purchased List,Open - Not Contacted,Education,Chennai,Tamil Nadu,India,Warm
+Divya,Rao,Sunrise Energy,CEO,divya.rao1@sunriseenergy.in,+91 9783369048,Partner Referral,Open - Not Contacted,Education,Kochi,Kerala,India,Cold
+Sanjay,Rao,Nova Energy,IT Manager,sanjay.rao2@novaenergy.in,+91 9127763191,Partner Referral,Closed - Not Converted,Construction,Kolkata,West Bengal,India,Cold
+Srinivas,Iyer,Indus Motors,IT Manager,srinivas.iyer3@indusmotors.in,+91 9836730722,Web,Closed - Converted,Healthcare,Ahmedabad,Gujarat,India,Hot
+Venkat,Naidu,Harmony Infra,Finance Head,venkat.naidu4@harmonyinfra.in,+91 9975772452,Web,Working - Contacted,Retail,Chennai,Tamil Nadu,India,Cold
+Ramya,Chowdary,Indus Solutions,Purchase Manager,ramya.chowdary5@indussolutions.in,+91 9442606877,Partner Referral,Working - Contacted,Healthcare,Pune,Maharashtra,India,Hot
+Vikram,Gupta,Pinnacle Steel,IT Manager,vikram.gupta6@pinnaclesteel.in,+91 9950536839,Purchased List,Closed - Not Converted,Banking,New Delhi,Delhi,India,Cold
+Priya,Naidu,Sunrise Energy,CTO,priya.naidu7@sunriseenergy.in,+91 9370616861,Partner Referral,Closed - Not Converted,Energy,Kochi,Kerala,India,Cold
+Harini,Naidu,Pinnacle Textiles,Operations Manager,harini.naidu8@pinnacletextiles.in,+91 9455224768,Partner Referral,Closed - Converted,Telecommunications,New Delhi,Delhi,India,Hot
+Deepa,Sharma,Trident Energy,Operations Manager,deepa.sharma9@tridentenergy.in,+91 9887094397,Web,Open - Not Contacted,Technology,Pune,Maharashtra,India,Hot
+Kiran,Joshi,Harmony Steel,Operations Manager,kiran.joshi10@harmonysteel.in,+91 9151299481,Phone Inquiry,Open - Not Contacted,Healthcare,Kolkata,West Bengal,India,Cold
+Manish,Sharma,Sri Technologies,Finance Head,manish.sharma11@sritechnologies.in,+91 9214206031,Partner Referral,Closed - Converted,Transportation,Hyderabad,Telangana,India,Hot
+Anjali,Joshi,Krishna Motors,Procurement Lead,anjali.joshi12@krishnamotors.in,+91 9270320618,Phone Inquiry,Open - Not Contacted,Healthcare,Mumbai,Maharashtra,India,Cold
+Kiran,Das,Vedanta Pharma,Finance Head,kiran.das13@vedantapharma.in,+91 9531593627,Purchased List,Closed - Not Converted,Technology,Chennai,Tamil Nadu,India,Hot
+Manish,Bhat,Godavari Solutions,Procurement Lead,manish.bhat14@godavarisolutions.in,+91 9366821641,Phone Inquiry,Open - Not Contacted,Technology,Jaipur,Rajasthan,India,Hot
+Priya,Bhat,Sri Textiles,CEO,priya.bhat15@sritextiles.in,+91 9936307703,Web,Open - Not Contacted,Construction,Chennai,Tamil Nadu,India,Cold
+Neha,Patel,Sapphire Textiles,Sales Director,neha.patel16@sapphiretextiles.in,+91 9973360984,Phone Inquiry,Closed - Converted,Transportation,Mumbai,Maharashtra,India,Warm
+Anil,Joshi,Nova Finance,CEO,anil.joshi17@novafinance.in,+91 9502823628,Partner Referral,Closed - Not Converted,Telecommunications,Ahmedabad,Gujarat,India,Hot
+Bhavana,Das,Kaveri Retail,CEO,bhavana.das18@kaveriretail.in,+91 9232356424,Web,Working - Contacted,Retail,Bengaluru,Karnataka,India,Cold
+Priya,Menon,Bluechip Steel,Finance Head,priya.menon19@bluechipsteel.in,+91 9417416323,Partner Referral,Closed - Converted,Healthcare,Kolkata,West Bengal,India,Hot
+Prakash,Mehta,Sri Motors,Purchase Manager,prakash.mehta20@srimotors.in,+91 9270925001,Other,Closed - Converted,Education,Pune,Maharashtra,India,Hot
+Prakash,Pillai,Sahyadri Solutions,Procurement Lead,prakash.pillai21@sahyadrisolutions.in,+91 9606957016,Phone Inquiry,Closed - Not Converted,Technology,Mumbai,Maharashtra,India,Hot
+Anjali,Kumar,Krishna Infra,CTO,anjali.kumar22@krishnainfra.in,+91 9706883788,Phone Inquiry,Closed - Not Converted,Manufacturing,Mumbai,Maharashtra,India,Hot
+Ravi,Iyer,Vedanta Solutions,IT Manager,ravi.iyer23@vedantasolutions.in,+91 9852413648,Web,Open - Not Contacted,Technology,Chennai,Tamil Nadu,India,Hot
+Srinivas,Sharma,Apex Finance,Operations Manager,srinivas.sharma24@apexfinance.in,+91 9314009839,Web,Closed - Not Converted,Transportation,Hyderabad,Telangana,India,Cold
+Anil,Pillai,Vedanta Retail,CEO,anil.pillai25@vedantaretail.in,+91 9136965519,Web,Closed - Not Converted,Banking,Mumbai,Maharashtra,India,Cold
+Manish,Joshi,Everest Pharma,Purchase Manager,manish.joshi26@everestpharma.in,+91 9416173375,Web,Working - Contacted,Energy,Chennai,Tamil Nadu,India,Warm
+Ravi,Naidu,Pinnacle Infra,Operations Manager,ravi.naidu27@pinnacleinfra.in,+91 9444486646,Partner Referral,Closed - Converted,Construction,Hyderabad,Telangana,India,Cold
+Pooja,Joshi,Harmony Finance,CEO,pooja.joshi28@harmonyfinance.in,+91 9568634172,Purchased List,Working - Contacted,Banking,Hyderabad,Telangana,India,Warm
+Pooja,Sharma,Bluechip Solutions,CTO,pooja.sharma29@bluechipsolutions.in,+91 9716908606,Partner Referral,Closed - Not Converted,Manufacturing,Mumbai,Maharashtra,India,Warm
+Ravi,Mehta,Indus Infra,Procurement Lead,ravi.mehta30@indusinfra.in,+91 9202745291,Web,Working - Contacted,Manufacturing,Hyderabad,Telangana,India,Warm
+Rajesh,Naidu,Neelkanth Infra,Finance Head,rajesh.naidu31@neelkanthinfra.in,+91 9975358301,Other,Open - Not Contacted,Healthcare,Jaipur,Rajasthan,India,Warm
+Deepa,Iyer,Apex Logistics,Operations Manager,deepa.iyer32@apexlogistics.in,+91 9481840913,Purchased List,Open - Not Contacted,Energy,Kochi,Kerala,India,Cold
+Anil,Singh,Sri Foods,Sales Director,anil.singh33@srifoods.in,+91 9685121614,Web,Working - Contacted,Energy,Mumbai,Maharashtra,India,Cold
+Lakshmi,Das,Sapphire Energy,CEO,lakshmi.das34@sapphireenergy.in,+91 9474183392,Purchased List,Working - Contacted,Transportation,Jaipur,Rajasthan,India,Hot
+Shalini,Das,Bluechip Finance,Procurement Lead,shalini.das35@bluechipfinance.in,+91 9839874004,Web,Closed - Converted,Construction,New Delhi,Delhi,India,Hot
+Kiran,Verma,Sunrise Steel,Finance Head,kiran.verma36@sunrisesteel.in,+91 9423741422,Phone Inquiry,Closed - Not Converted,Construction,Mumbai,Maharashtra,India,Hot
+Bhavana,Nair,Lotus Finance,Operations Manager,bhavana.nair37@lotusfinance.in,+91 9272791213,Partner Referral,Working - Contacted,Healthcare,New Delhi,Delhi,India,Warm
+Bhavana,Iyer,Kaveri Steel,IT Manager,bhavana.iyer38@kaveristeel.in,+91 9259256472,Web,Closed - Converted,Retail,Bengaluru,Karnataka,India,Warm
+Arjun,Patel,Vedanta Steel,Sales Director,arjun.patel39@vedantasteel.in,+91 9598126398,Web,Open - Not Contacted,Energy,Bengaluru,Karnataka,India,Warm
+Srinivas,Kumar,Neelkanth Steel,IT Manager,srinivas.kumar40@neelkanthsteel.in,+91 9376180952,Phone Inquiry,Closed - Converted,Energy,Pune,Maharashtra,India,Hot
+Bhavana,Kumar,Orbit Finance,Sales Director,bhavana.kumar41@orbitfinance.in,+91 9345419390,Partner Referral,Closed - Converted,Construction,Jaipur,Rajasthan,India,Hot
+Neha,Gupta,Vedanta Logistics,CTO,neha.gupta42@vedantalogistics.in,+91 9550521025,Web,Open - Not Contacted,Energy,Kolkata,West Bengal,India,Cold
+Srinivas,Gupta,Pinnacle Textiles,Sales Director,srinivas.gupta43@pinnacletextiles.in,+91 9656469132,Phone Inquiry,Closed - Converted,Manufacturing,Ahmedabad,Gujarat,India,Cold
+Rahul,Reddy,Zenith Logistics,Purchase Manager,rahul.reddy44@zenithlogistics.in,+91 9272703437,Web,Closed - Converted,Healthcare,Bengaluru,Karnataka,India,Cold
+Divya,Iyer,Krishna Logistics,Procurement Lead,divya.iyer45@krishnalogistics.in,+91 9649961072,Web,Open - Not Contacted,Education,Kochi,Kerala,India,Cold
+Rahul,Singh,Sunrise Retail,CTO,rahul.singh46@sunriseretail.in,+91 9882872121,Phone Inquiry,Closed - Not Converted,Education,Chennai,Tamil Nadu,India,Cold
+Priya,Menon,Pinnacle Textiles,CTO,priya.menon47@pinnacletextiles.in,+91 9549449528,Web,Closed - Not Converted,Education,Kolkata,West Bengal,India,Cold
+Arjun,Iyer,Lotus Infra,Purchase Manager,arjun.iyer48@lotusinfra.in,+91 9960590493,Other,Closed - Not Converted,Telecommunications,Kolkata,West Bengal,India,Hot
+Deepa,Nair,Apex Steel,Purchase Manager,deepa.nair49@apexsteel.in,+91 9974712306,Phone Inquiry,Closed - Not Converted,Education,Mumbai,Maharashtra,India,Cold
+Manish,Singh,Sunrise Infra,Procurement Lead,manish.singh50@sunriseinfra.in,+91 9480905799,Partner Referral,Closed - Converted,Healthcare,Kochi,Kerala,India,Warm
+Srinivas,Pillai,Pinnacle Textiles,Finance Head,srinivas.pillai51@pinnacletextiles.in,+91 9484375328,Phone Inquiry,Open - Not Contacted,Retail,Chennai,Tamil Nadu,India,Warm
+Pooja,Chowdary,Orbit Solutions,Operations Manager,pooja.chowdary52@orbitsolutions.in,+91 9264017456,Partner Referral,Closed - Not Converted,Energy,Bengaluru,Karnataka,India,Hot
+Anil,Verma,Sapphire Energy,CEO,anil.verma53@sapphireenergy.in,+91 9805773966,Partner Referral,Open - Not Contacted,Banking,New Delhi,Delhi,India,Cold
+Meera,Menon,Harmony Pharma,Purchase Manager,meera.menon54@harmonypharma.in,+91 9299354634,Web,Closed - Converted,Education,Jaipur,Rajasthan,India,Hot
+Suresh,Pillai,Bluechip Motors,CTO,suresh.pillai55@bluechipmotors.in,+91 9817751231,Purchased List,Closed - Not Converted,Transportation,Jaipur,Rajasthan,India,Cold
+Venkat,Joshi,Indus Logistics,Procurement Lead,venkat.joshi56@induslogistics.in,+91 9820726123,Phone Inquiry,Closed - Not Converted,Transportation,Mumbai,Maharashtra,India,Hot
+Arjun,Singh,Lotus Motors,CEO,arjun.singh57@lotusmotors.in,+91 9620089001,Phone Inquiry,Working - Contacted,Manufacturing,Ahmedabad,Gujarat,India,Cold
+Pooja,Kumar,Everest Motors,CEO,pooja.kumar58@everestmotors.in,+91 9272182448,Partner Referral,Closed - Not Converted,Telecommunications,Kochi,Kerala,India,Cold
+Rajesh,Chowdary,Trident Logistics,CTO,rajesh.chowdary59@tridentlogistics.in,+91 9293830770,Phone Inquiry,Closed - Converted,Technology,New Delhi,Delhi,India,Hot
+Swathi,Sharma,Sahyadri Pharma,IT Manager,swathi.sharma60@sahyadripharma.in,+91 9136396627,Phone Inquiry,Open - Not Contacted,Energy,Kochi,Kerala,India,Cold
+Kiran,Verma,Vedanta Steel,Purchase Manager,kiran.verma61@vedantasteel.in,+91 9405104873,Web,Working - Contacted,Energy,New Delhi,Delhi,India,Warm
+Kavya,Sharma,Trident Infra,Sales Director,kavya.sharma62@tridentinfra.in,+91 9458331100,Purchased List,Working - Contacted,Retail,New Delhi,Delhi,India,Cold
+Divya,Patel,Everest Pharma,Finance Head,divya.patel63@everestpharma.in,+91 9236977996,Web,Closed - Converted,Banking,New Delhi,Delhi,India,Hot
+Vikram,Bhat,Zenith Energy,Finance Head,vikram.bhat64@zenithenergy.in,+91 9216501538,Web,Open - Not Contacted,Healthcare,Jaipur,Rajasthan,India,Warm
+Swathi,Sharma,Neelkanth Energy,IT Manager,swathi.sharma65@neelkanthenergy.in,+91 9773036690,Phone Inquiry,Closed - Converted,Construction,Jaipur,Rajasthan,India,Cold
+Anil,Patel,Nova Steel,IT Manager,anil.patel66@novasteel.in,+91 9208836223,Partner Referral,Closed - Converted,Technology,Ahmedabad,Gujarat,India,Warm
+Ajay,Iyer,Sri Foods,Finance Head,ajay.iyer67@srifoods.in,+91 9424313389,Purchased List,Open - Not Contacted,Technology,Chennai,Tamil Nadu,India,Warm
+Ravi,Singh,Krishna Steel,CEO,ravi.singh68@krishnasteel.in,+91 9634471182,Other,Working - Contacted,Technology,Jaipur,Rajasthan,India,Hot
+Ajay,Singh,Krishna Finance,CEO,ajay.singh69@krishnafinance.in,+91 9830104463,Phone Inquiry,Working - Contacted,Construction,Kolkata,West Bengal,India,Cold
+Kiran,Chowdary,Orbit Energy,Procurement Lead,kiran.chowdary70@orbitenergy.in,+91 9327930606,Web,Closed - Not Converted,Technology,Bengaluru,Karnataka,India,Warm
+Ravi,Reddy,Vedanta Pharma,IT Manager,ravi.reddy71@vedantapharma.in,+91 9607162382,Purchased List,Open - Not Contacted,Construction,Mumbai,Maharashtra,India,Hot
+Naveen,Gupta,Nova Foods,CTO,naveen.gupta72@novafoods.in,+91 9414760227,Partner Referral,Closed - Converted,Telecommunications,Chennai,Tamil Nadu,India,Warm
+Neha,Menon,Nova Finance,CEO,neha.menon73@novafinance.in,+91 9798681096,Web,Closed - Converted,Construction,Hyderabad,Telangana,India,Hot
+Vikram,Joshi,Trident Finance,Procurement Lead,vikram.joshi74@tridentfinance.in,+91 9753853155,Web,Open - Not Contacted,Education,Jaipur,Rajasthan,India,Cold
+Bhavana,Das,Everest Steel,CTO,bhavana.das75@evereststeel.in,+91 9490053461,Web,Closed - Not Converted,Manufacturing,Chennai,Tamil Nadu,India,Cold
+Harini,Singh,Everest Textiles,Operations Manager,harini.singh76@everesttextiles.in,+91 9413949542,Other,Open - Not Contacted,Construction,Ahmedabad,Gujarat,India,Cold
+Srinivas,Verma,Harmony Finance,Finance Head,srinivas.verma77@harmonyfinance.in,+91 9727782738,Purchased List,Working - Contacted,Healthcare,Hyderabad,Telangana,India,Warm
+Vikram,Pillai,Harmony Retail,CEO,vikram.pillai78@harmonyretail.in,+91 9445235791,Web,Working - Contacted,Energy,Ahmedabad,Gujarat,India,Hot
+Rajesh,Sharma,Trident Motors,Procurement Lead,rajesh.sharma79@tridentmotors.in,+91 9472430839,Web,Working - Contacted,Transportation,Jaipur,Rajasthan,India,Cold
+Pooja,Pillai,Indus Finance,CEO,pooja.pillai80@indusfinance.in,+91 9827634013,Web,Working - Contacted,Healthcare,Mumbai,Maharashtra,India,Warm
+Rajesh,Reddy,Zenith Logistics,Operations Manager,rajesh.reddy81@zenithlogistics.in,+91 9929107226,Web,Open - Not Contacted,Energy,Kochi,Kerala,India,Cold
+Sanjay,Menon,Neelkanth Foods,Purchase Manager,sanjay.menon82@neelkanthfoods.in,+91 9303099798,Phone Inquiry,Open - Not Contacted,Banking,Ahmedabad,Gujarat,India,Hot
+Harini,Joshi,Godavari Solutions,IT Manager,harini.joshi83@godavarisolutions.in,+91 9364467808,Phone Inquiry,Open - Not Contacted,Telecommunications,Jaipur,Rajasthan,India,Warm
+Shalini,Iyer,Godavari Steel,IT Manager,shalini.iyer84@godavaristeel.in,+91 9439076359,Purchased List,Working - Contacted,Education,Ahmedabad,Gujarat,India,Warm
+Sanjay,Reddy,Vedanta Technologies,Procurement Lead,sanjay.reddy85@vedantatechnologies.in,+91 9729976100,Other,Working - Contacted,Retail,Mumbai,Maharashtra,India,Warm
+Anjali,Iyer,Sunrise Solutions,Finance Head,anjali.iyer86@sunrisesolutions.in,+91 9140663166,Other,Working - Contacted,Manufacturing,Jaipur,Rajasthan,India,Warm
+Anil,Reddy,Nova Technologies,Procurement Lead,anil.reddy87@novatechnologies.in,+91 9622735601,Phone Inquiry,Closed - Not Converted,Banking,Kochi,Kerala,India,Cold
+Manish,Pillai,Vedanta Finance,Purchase Manager,manish.pillai88@vedantafinance.in,+91 9787874420,Web,Open - Not Contacted,Transportation,Bengaluru,Karnataka,India,Warm
+Deepa,Das,Kaveri Foods,Purchase Manager,deepa.das89@kaverifoods.in,+91 9284816723,Other,Open - Not Contacted,Retail,Mumbai,Maharashtra,India,Warm
+Priya,Bhat,Sri Technologies,Procurement Lead,priya.bhat90@sritechnologies.in,+91 9159880236,Purchased List,Open - Not Contacted,Education,Pune,Maharashtra,India,Hot
+Suresh,Joshi,Krishna Solutions,CTO,suresh.joshi91@krishnasolutions.in,+91 9605437522,Purchased List,Working - Contacted,Retail,Ahmedabad,Gujarat,India,Warm
+Sneha,Naidu,Everest Textiles,IT Manager,sneha.naidu92@everesttextiles.in,+91 9827613303,Phone Inquiry,Closed - Not Converted,Telecommunications,Chennai,Tamil Nadu,India,Cold
+Ramya,Patel,Nova Motors,Operations Manager,ramya.patel93@novamotors.in,+91 9904327421,Web,Open - Not Contacted,Telecommunications,Mumbai,Maharashtra,India,Hot
+Ramya,Pillai,Sri Steel,Operations Manager,ramya.pillai94@sristeel.in,+91 9446352129,Phone Inquiry,Closed - Not Converted,Telecommunications,Bengaluru,Karnataka,India,Hot
+Manish,Naidu,Sapphire Foods,IT Manager,manish.naidu95@sapphirefoods.in,+91 9866355764,Partner Referral,Closed - Converted,Manufacturing,Mumbai,Maharashtra,India,Warm
+Shalini,Nair,Pinnacle Textiles,CEO,shalini.nair96@pinnacletextiles.in,+91 9391099071,Web,Closed - Converted,Retail,Kolkata,West Bengal,India,Warm
+Harini,Gupta,Pinnacle Logistics,Procurement Lead,harini.gupta97@pinnaclelogistics.in,+91 9222587137,Web,Open - Not Contacted,Transportation,Bengaluru,Karnataka,India,Hot
+Manish,Patel,Bluechip Logistics,Purchase Manager,manish.patel98@bluechiplogistics.in,+91 9491142620,Web,Working - Contacted,Retail,Pune,Maharashtra,India,Hot
+Ramya,Kumar,Vedanta Textiles,IT Manager,ramya.kumar99@vedantatextiles.in,+91 9161721221,Phone Inquiry,Closed - Not Converted,Retail,Pune,Maharashtra,India,Hot
+Manish,Reddy,Sunrise Energy,Procurement Lead,manish.reddy100@sunriseenergy.in,+91 9102064836,Phone Inquiry,Closed - Not Converted,Transportation,New Delhi,Delhi,India,Warm
+Deepa,Naidu,Orbit Technologies,IT Manager,deepa.naidu101@orbittechnologies.in,+91 9248256359,Web,Closed - Not Converted,Transportation,Kolkata,West Bengal,India,Hot
+Srinivas,Gupta,Indus Solutions,Procurement Lead,srinivas.gupta102@indussolutions.in,+91 9917417808,Purchased List,Open - Not Contacted,Healthcare,Bengaluru,Karnataka,India,Hot
+Swathi,Patel,Krishna Infra,Sales Director,swathi.patel103@krishnainfra.in,+91 9874872196,Web,Closed - Not Converted,Transportation,Mumbai,Maharashtra,India,Warm
+Rahul,Joshi,Everest Pharma,Procurement Lead,rahul.joshi104@everestpharma.in,+91 9243110392,Phone Inquiry,Closed - Not Converted,Retail,Hyderabad,Telangana,India,Hot
+Deepa,Naidu,Nova Motors,CEO,deepa.naidu105@novamotors.in,+91 9482420536,Partner Referral,Closed - Converted,Telecommunications,New Delhi,Delhi,India,Cold
+Anil,Iyer,Godavari Finance,Operations Manager,anil.iyer106@godavarifinance.in,+91 9936578407,Purchased List,Closed - Converted,Energy,Mumbai,Maharashtra,India,Cold
+Ajay,Sharma,Trident Pharma,CEO,ajay.sharma107@tridentpharma.in,+91 9669631314,Phone Inquiry,Closed - Not Converted,Manufacturing,Ahmedabad,Gujarat,India,Hot
+Lakshmi,Rao,Lotus Solutions,Finance Head,lakshmi.rao108@lotussolutions.in,+91 9368927314,Web,Closed - Converted,Technology,Chennai,Tamil Nadu,India,Hot
+Sneha,Patel,Pinnacle Technologies,Procurement Lead,sneha.patel109@pinnacletechnologies.in,+91 9661471702,Partner Referral,Working - Contacted,Telecommunications,Jaipur,Rajasthan,India,Hot
+Divya,Iyer,Kaveri Technologies,Procurement Lead,divya.iyer110@kaveritechnologies.in,+91 9729107570,Web,Working - Contacted,Retail,Pune,Maharashtra,India,Hot
+Sneha,Iyer,Zenith Motors,Purchase Manager,sneha.iyer111@zenithmotors.in,+91 9258076841,Partner Referral,Closed - Converted,Telecommunications,Kochi,Kerala,India,Cold
+Vikram,Gupta,Sri Steel,CEO,vikram.gupta112@sristeel.in,+91 9524808207,Partner Referral,Closed - Not Converted,Technology,Kolkata,West Bengal,India,Warm
+Rahul,Pillai,Lotus Foods,Operations Manager,rahul.pillai113@lotusfoods.in,+91 9975145968,Purchased List,Working - Contacted,Transportation,Kolkata,West Bengal,India,Hot
+Rahul,Mehta,Sapphire Steel,Sales Director,rahul.mehta114@sapphiresteel.in,+91 9812017949,Web,Closed - Converted,Education,New Delhi,Delhi,India,Hot
+Sanjay,Gupta,Apex Foods,CEO,sanjay.gupta115@apexfoods.in,+91 9342105641,Web,Open - Not Contacted,Energy,Kolkata,West Bengal,India,Warm
+Manish,Sharma,Nova Technologies,Finance Head,manish.sharma116@novatechnologies.in,+91 9774577592,Web,Working - Contacted,Technology,Jaipur,Rajasthan,India,Cold
+Sneha,Menon,Vedanta Energy,CEO,sneha.menon117@vedantaenergy.in,+91 9408725305,Phone Inquiry,Open - Not Contacted,Education,Hyderabad,Telangana,India,Cold
+Deepa,Iyer,Nova Solutions,CTO,deepa.iyer118@novasolutions.in,+91 9600811739,Other,Working - Contacted,Manufacturing,Kochi,Kerala,India,Warm
+Sneha,Mehta,Sapphire Infra,Finance Head,sneha.mehta119@sapphireinfra.in,+91 9361349503,Partner Referral,Closed - Converted,Transportation,Kolkata,West Bengal,India,Warm
+Venkat,Das,Harmony Finance,Sales Director,venkat.das120@harmonyfinance.in,+91 9316028117,Web,Working - Contacted,Education,Jaipur,Rajasthan,India,Warm
+Prakash,Bhat,Trident Solutions,Finance Head,prakash.bhat121@tridentsolutions.in,+91 9133245564,Phone Inquiry,Open - Not Contacted,Healthcare,Ahmedabad,Gujarat,India,Hot
+Sanjay,Bhat,Zenith Solutions,Operations Manager,sanjay.bhat122@zenithsolutions.in,+91 9274262382,Web,Closed - Not Converted,Healthcare,Kolkata,West Bengal,India,Warm
+Kavya,Verma,Everest Infra,Purchase Manager,kavya.verma123@everestinfra.in,+91 9417295280,Purchased List,Open - Not Contacted,Technology,Pune,Maharashtra,India,Hot
+Kavya,Rao,Harmony Foods,Sales Director,kavya.rao124@harmonyfoods.in,+91 9995855040,Partner Referral,Closed - Converted,Banking,Ahmedabad,Gujarat,India,Cold
+Lakshmi,Nair,Orbit Foods,Purchase Manager,lakshmi.nair125@orbitfoods.in,+91 9761743464,Web,Closed - Converted,Retail,New Delhi,Delhi,India,Cold
+Sneha,Chowdary,Pinnacle Steel,CTO,sneha.chowdary126@pinnaclesteel.in,+91 9104642655,Phone Inquiry,Working - Contacted,Transportation,Chennai,Tamil Nadu,India,Cold
+Sneha,Chowdary,Zenith Solutions,Finance Head,sneha.chowdary127@zenithsolutions.in,+91 9767222710,Phone Inquiry,Closed - Converted,Energy,Chennai,Tamil Nadu,India,Warm
+Srinivas,Das,Trident Finance,Sales Director,srinivas.das128@tridentfinance.in,+91 9664918775,Web,Closed - Converted,Energy,New Delhi,Delhi,India,Cold
+Rahul,Reddy,Everest Textiles,Finance Head,rahul.reddy129@everesttextiles.in,+91 9962163825,Web,Open - Not Contacted,Construction,Ahmedabad,Gujarat,India,Warm
+Rajesh,Kumar,Apex Foods,Purchase Manager,rajesh.kumar130@apexfoods.in,+91 9449845410,Other,Open - Not Contacted,Energy,New Delhi,Delhi,India,Hot
+Ravi,Sharma,Pinnacle Solutions,Finance Head,ravi.sharma131@pinnaclesolutions.in,+91 9678209551,Web,Closed - Converted,Energy,Ahmedabad,Gujarat,India,Cold
+Venkat,Mehta,Orbit Textiles,Operations Manager,venkat.mehta132@orbittextiles.in,+91 9586474845,Phone Inquiry,Closed - Not Converted,Banking,Ahmedabad,Gujarat,India,Cold
+Lakshmi,Iyer,Orbit Foods,IT Manager,lakshmi.iyer133@orbitfoods.in,+91 9302093455,Phone Inquiry,Closed - Not Converted,Telecommunications,Kochi,Kerala,India,Warm
+Naveen,Verma,Neelkanth Finance,Operations Manager,naveen.verma134@neelkanthfinance.in,+91 9493695718,Web,Closed - Not Converted,Retail,Bengaluru,Karnataka,India,Cold
+Deepa,Iyer,Trident Finance,Sales Director,deepa.iyer135@tridentfinance.in,+91 9777639817,Purchased List,Open - Not Contacted,Retail,New Delhi,Delhi,India,Cold
+Suresh,Mehta,Indus Textiles,CTO,suresh.mehta136@industextiles.in,+91 9479228680,Web,Closed - Converted,Technology,Chennai,Tamil Nadu,India,Cold
+Anjali,Reddy,Sri Infra,Finance Head,anjali.reddy137@sriinfra.in,+91 9526883345,Web,Closed - Not Converted,Construction,Kochi,Kerala,India,Hot
+Neha,Reddy,Indus Motors,Finance Head,neha.reddy138@indusmotors.in,+91 9794508426,Purchased List,Closed - Not Converted,Transportation,Ahmedabad,Gujarat,India,Hot
+Rajesh,Patel,Orbit Solutions,CTO,rajesh.patel139@orbitsolutions.in,+91 9131175186,Web,Open - Not Contacted,Manufacturing,Bengaluru,Karnataka,India,Cold
+Pooja,Das,Harmony Textiles,Operations Manager,pooja.das140@harmonytextiles.in,+91 9254540594,Partner Referral,Closed - Converted,Education,Hyderabad,Telangana,India,Warm
+Deepa,Sharma,Pinnacle Steel,CTO,deepa.sharma141@pinnaclesteel.in,+91 9474621624,Purchased List,Open - Not Contacted,Construction,Bengaluru,Karnataka,India,Warm
+Ravi,Sharma,Lotus Textiles,CEO,ravi.sharma142@lotustextiles.in,+91 9572061016,Purchased List,Open - Not Contacted,Healthcare,Jaipur,Rajasthan,India,Hot
+Lakshmi,Sharma,Kaveri Solutions,Procurement Lead,lakshmi.sharma143@kaverisolutions.in,+91 9426070212,Web,Working - Contacted,Retail,Chennai,Tamil Nadu,India,Warm
+Anil,Kumar,Zenith Steel,Finance Head,anil.kumar144@zenithsteel.in,+91 9527991277,Web,Closed - Not Converted,Telecommunications,Jaipur,Rajasthan,India,Hot
+Harini,Kumar,Apex Motors,IT Manager,harini.kumar145@apexmotors.in,+91 9108194396,Phone Inquiry,Closed - Not Converted,Retail,Chennai,Tamil Nadu,India,Warm
+Kavya,Naidu,Vedanta Foods,Operations Manager,kavya.naidu146@vedantafoods.in,+91 9532928484,Purchased List,Closed - Converted,Banking,Kochi,Kerala,India,Warm
+Venkat,Naidu,Bluechip Retail,Finance Head,venkat.naidu147@bluechipretail.in,+91 9469881564,Web,Open - Not Contacted,Technology,Kolkata,West Bengal,India,Warm
+Neha,Reddy,Sahyadri Motors,CTO,neha.reddy148@sahyadrimotors.in,+91 9310771500,Partner Referral,Working - Contacted,Manufacturing,Mumbai,Maharashtra,India,Cold
+Naveen,Das,Lotus Motors,Sales Director,naveen.das149@lotusmotors.in,+91 9504686425,Phone Inquiry,Closed - Converted,Construction,New Delhi,Delhi,India,Hot
+Meera,Chowdary,Neelkanth Retail,IT Manager,meera.chowdary150@neelkanthretail.in,+91 9858569788,Purchased List,Closed - Not Converted,Construction,Mumbai,Maharashtra,India,Warm
+Rajesh,Naidu,Bluechip Retail,Purchase Manager,rajesh.naidu151@bluechipretail.in,+91 9234772491,Partner Referral,Closed - Not Converted,Banking,Kolkata,West Bengal,India,Cold
+Sanjay,Rao,Bluechip Infra,IT Manager,sanjay.rao152@bluechipinfra.in,+91 9433707105,Web,Open - Not Contacted,Banking,Kolkata,West Bengal,India,Cold
+Deepa,Kumar,Sahyadri Retail,Operations Manager,deepa.kumar153@sahyadriretail.in,+91 9964555813,Web,Working - Contacted,Retail,Bengaluru,Karnataka,India,Hot
+Anil,Joshi,Apex Retail,Sales Director,anil.joshi154@apexretail.in,+91 9403186103,Web,Working - Contacted,Telecommunications,Pune,Maharashtra,India,Cold
+Prakash,Nair,Pinnacle Motors,Operations Manager,prakash.nair155@pinnaclemotors.in,+91 9542994378,Phone Inquiry,Open - Not Contacted,Telecommunications,Hyderabad,Telangana,India,Hot
+Shalini,Pillai,Godavari Steel,CTO,shalini.pillai156@godavaristeel.in,+91 9390864005,Web,Closed - Not Converted,Healthcare,Bengaluru,Karnataka,India,Cold
+Neha,Sharma,Zenith Technologies,Purchase Manager,neha.sharma157@zenithtechnologies.in,+91 9912779275,Web,Working - Contacted,Energy,Jaipur,Rajasthan,India,Cold
+Priya,Bhat,Trident Steel,Purchase Manager,priya.bhat158@tridentsteel.in,+91 9712210285,Partner Referral,Closed - Converted,Transportation,Chennai,Tamil Nadu,India,Warm
+Ramya,Singh,Krishna Foods,Finance Head,ramya.singh159@krishnafoods.in,+91 9146127709,Web,Closed - Not Converted,Construction,Hyderabad,Telangana,India,Cold
+Srinivas,Sharma,Lotus Steel,Operations Manager,srinivas.sharma160@lotussteel.in,+91 9325635207,Web,Closed - Converted,Education,Bengaluru,Karnataka,India,Cold
+Ramya,Rao,Orbit Finance,Purchase Manager,ramya.rao161@orbitfinance.in,+91 9401899366,Other,Working - Contacted,Education,Kolkata,West Bengal,India,Warm
+Naveen,Verma,Neelkanth Finance,Purchase Manager,naveen.verma162@neelkanthfinance.in,+91 9559937729,Phone Inquiry,Closed - Converted,Manufacturing,Ahmedabad,Gujarat,India,Warm
+Ajay,Patel,Nova Finance,IT Manager,ajay.patel163@novafinance.in,+91 9938441988,Web,Closed - Converted,Transportation,Kochi,Kerala,India,Warm
+Lakshmi,Sharma,Kaveri Foods,Purchase Manager,lakshmi.sharma164@kaverifoods.in,+91 9783442456,Phone Inquiry,Working - Contacted,Manufacturing,New Delhi,Delhi,India,Cold
+Srinivas,Chowdary,Everest Retail,Procurement Lead,srinivas.chowdary165@everestretail.in,+91 9242917316,Web,Closed - Not Converted,Education,Mumbai,Maharashtra,India,Cold
+Meera,Nair,Sapphire Solutions,CTO,meera.nair166@sapphiresolutions.in,+91 9688689880,Web,Working - Contacted,Manufacturing,Jaipur,Rajasthan,India,Cold
+Neha,Nair,Harmony Logistics,CTO,neha.nair167@harmonylogistics.in,+91 9841022051,Purchased List,Open - Not Contacted,Education,Kolkata,West Bengal,India,Warm
+Suresh,Sharma,Nova Infra,Finance Head,suresh.sharma168@novainfra.in,+91 9581055796,Web,Closed - Not Converted,Manufacturing,Pune,Maharashtra,India,Warm
+Naveen,Das,Krishna Foods,CTO,naveen.das169@krishnafoods.in,+91 9148941344,Web,Open - Not Contacted,Telecommunications,Pune,Maharashtra,India,Hot
+Bhavana,Verma,Krishna Infra,Sales Director,bhavana.verma170@krishnainfra.in,+91 9624354674,Partner Referral,Working - Contacted,Transportation,Bengaluru,Karnataka,India,Warm
+Ravi,Naidu,Apex Steel,Finance Head,ravi.naidu171@apexsteel.in,+91 9801231724,Partner Referral,Working - Contacted,Manufacturing,Pune,Maharashtra,India,Cold
+Ravi,Reddy,Zenith Motors,IT Manager,ravi.reddy172@zenithmotors.in,+91 9209711807,Phone Inquiry,Closed - Not Converted,Retail,Pune,Maharashtra,India,Cold
+Swathi,Verma,Zenith Motors,Operations Manager,swathi.verma173@zenithmotors.in,+91 9246396939,Web,Closed - Converted,Education,New Delhi,Delhi,India,Warm
+Lakshmi,Sharma,Nova Pharma,Sales Director,lakshmi.sharma174@novapharma.in,+91 9154274416,Purchased List,Closed - Not Converted,Telecommunications,Jaipur,Rajasthan,India,Warm
+Pooja,Gupta,Trident Solutions,IT Manager,pooja.gupta175@tridentsolutions.in,+91 9838717199,Partner Referral,Working - Contacted,Manufacturing,Jaipur,Rajasthan,India,Warm
+Manish,Pillai,Apex Technologies,Purchase Manager,manish.pillai176@apextechnologies.in,+91 9876261974,Phone Inquiry,Working - Contacted,Technology,Ahmedabad,Gujarat,India,Cold
+Shalini,Mehta,Orbit Motors,CEO,shalini.mehta177@orbitmotors.in,+91 9652571108,Web,Closed - Converted,Education,Pune,Maharashtra,India,Hot
+Naveen,Reddy,Kaveri Finance,CEO,naveen.reddy178@kaverifinance.in,+91 9575834710,Phone Inquiry,Closed - Not Converted,Education,Chennai,Tamil Nadu,India,Cold
+Suresh,Chowdary,Apex Energy,Sales Director,suresh.chowdary179@apexenergy.in,+91 9674124728,Phone Inquiry,Closed - Not Converted,Manufacturing,New Delhi,Delhi,India,Warm
+Swathi,Rao,Nova Finance,Finance Head,swathi.rao180@novafinance.in,+91 9706689113,Partner Referral,Closed - Converted,Education,New Delhi,Delhi,India,Warm
+Neha,Nair,Trident Foods,CEO,neha.nair181@tridentfoods.in,+91 9302770350,Purchased List,Open - Not Contacted,Telecommunications,Kochi,Kerala,India,Cold
+Anil,Nair,Krishna Foods,Sales Director,anil.nair182@krishnafoods.in,+91 9486548365,Partner Referral,Closed - Converted,Construction,Kochi,Kerala,India,Warm
+Vikram,Menon,Vedanta Retail,Purchase Manager,vikram.menon183@vedantaretail.in,+91 9688532775,Other,Closed - Converted,Healthcare,Chennai,Tamil Nadu,India,Warm
+Manish,Iyer,Indus Energy,Purchase Manager,manish.iyer184@indusenergy.in,+91 9694875790,Partner Referral,Closed - Converted,Transportation,Pune,Maharashtra,India,Cold
+Srinivas,Iyer,Neelkanth Solutions,Sales Director,srinivas.iyer185@neelkanthsolutions.in,+91 9829600427,Web,Open - Not Contacted,Telecommunications,Jaipur,Rajasthan,India,Hot
+Shalini,Mehta,Bluechip Energy,CTO,shalini.mehta186@bluechipenergy.in,+91 9593907789,Partner Referral,Closed - Not Converted,Energy,Bengaluru,Karnataka,India,Cold
+Deepa,Patel,Krishna Logistics,CEO,deepa.patel187@krishnalogistics.in,+91 9534174483,Web,Open - Not Contacted,Education,Bengaluru,Karnataka,India,Hot
+Ravi,Patel,Sunrise Infra,Sales Director,ravi.patel188@sunriseinfra.in,+91 9194172898,Partner Referral,Closed - Converted,Healthcare,Bengaluru,Karnataka,India,Cold
+Sneha,Naidu,Kaveri Foods,CEO,sneha.naidu189@kaverifoods.in,+91 9986513971,Purchased List,Open - Not Contacted,Healthcare,New Delhi,Delhi,India,Warm
+Sanjay,Mehta,Godavari Finance,Operations Manager,sanjay.mehta190@godavarifinance.in,+91 9206993316,Web,Working - Contacted,Education,Ahmedabad,Gujarat,India,Cold
+Sneha,Sharma,Lotus Infra,Procurement Lead,sneha.sharma191@lotusinfra.in,+91 9122852637,Web,Closed - Not Converted,Construction,New Delhi,Delhi,India,Warm
+Sneha,Reddy,Everest Pharma,IT Manager,sneha.reddy192@everestpharma.in,+91 9261324141,Purchased List,Working - Contacted,Retail,Bengaluru,Karnataka,India,Cold
+Neha,Pillai,Sapphire Solutions,Finance Head,neha.pillai193@sapphiresolutions.in,+91 9576836982,Phone Inquiry,Open - Not Contacted,Education,Pune,Maharashtra,India,Hot
+Pooja,Mehta,Everest Technologies,Sales Director,pooja.mehta194@everesttechnologies.in,+91 9610840170,Web,Closed - Not Converted,Telecommunications,Hyderabad,Telangana,India,Warm
+Lakshmi,Mehta,Apex Foods,Finance Head,lakshmi.mehta195@apexfoods.in,+91 9240575289,Phone Inquiry,Working - Contacted,Technology,New Delhi,Delhi,India,Hot
+Deepa,Naidu,Sunrise Foods,Operations Manager,deepa.naidu196@sunrisefoods.in,+91 9437541237,Phone Inquiry,Open - Not Contacted,Construction,Jaipur,Rajasthan,India,Warm
+Rahul,Kumar,Sri Retail,CEO,rahul.kumar197@sriretail.in,+91 9777396367,Purchased List,Open - Not Contacted,Manufacturing,Ahmedabad,Gujarat,India,Warm
+Vikram,Menon,Apex Energy,IT Manager,vikram.menon198@apexenergy.in,+91 9850126018,Phone Inquiry,Open - Not Contacted,Transportation,Pune,Maharashtra,India,Hot
+Shalini,Patel,Orbit Steel,Operations Manager,shalini.patel199@orbitsteel.in,+91 9950298609,Partner Referral,Working - Contacted,Healthcare,Jaipur,Rajasthan,India,Hot
+Neha,Rao,Trident Foods,Purchase Manager,neha.rao200@tridentfoods.in,+91 9476271130,Phone Inquiry,Closed - Not Converted,Energy,New Delhi,Delhi,India,Warm
+Priya,Verma,Sahyadri Logistics,Purchase Manager,priya.verma201@sahyadrilogistics.in,+91 9968890963,Phone Inquiry,Open - Not Contacted,Education,Kochi,Kerala,India,Hot
+Kiran,Patel,Sri Steel,Sales Director,kiran.patel202@sristeel.in,+91 9710665868,Phone Inquiry,Closed - Not Converted,Manufacturing,Ahmedabad,Gujarat,India,Cold
+Anil,Nair,Trident Finance,Operations Manager,anil.nair203@tridentfinance.in,+91 9178920596,Web,Closed - Not Converted,Construction,Pune,Maharashtra,India,Hot
+Rajesh,Gupta,Trident Solutions,Operations Manager,rajesh.gupta204@tridentsolutions.in,+91 9931547359,Other,Closed - Converted,Banking,New Delhi,Delhi,India,Warm
+Rahul,Gupta,Pinnacle Infra,IT Manager,rahul.gupta205@pinnacleinfra.in,+91 9772644968,Web,Working - Contacted,Technology,Kochi,Kerala,India,Hot
+Priya,Pillai,Sunrise Retail,CTO,priya.pillai206@sunriseretail.in,+91 9311216762,Web,Open - Not Contacted,Technology,Jaipur,Rajasthan,India,Hot
+Swathi,Sharma,Apex Pharma,IT Manager,swathi.sharma207@apexpharma.in,+91 9105422495,Web,Open - Not Contacted,Transportation,Jaipur,Rajasthan,India,Cold
+Prakash,Reddy,Sahyadri Technologies,CEO,prakash.reddy208@sahyadritechnologies.in,+91 9796786634,Web,Working - Contacted,Construction,Mumbai,Maharashtra,India,Cold
+Harini,Verma,Kaveri Technologies,CTO,harini.verma209@kaveritechnologies.in,+91 9772496575,Purchased List,Closed - Converted,Telecommunications,Kolkata,West Bengal,India,Cold
+Vikram,Menon,Sunrise Technologies,Operations Manager,vikram.menon210@sunrisetechnologies.in,+91 9160148391,Other,Working - Contacted,Education,Hyderabad,Telangana,India,Hot
+Anil,Reddy,Sapphire Retail,CTO,anil.reddy211@sapphireretail.in,+91 9484232877,Phone Inquiry,Closed - Not Converted,Energy,Chennai,Tamil Nadu,India,Warm
+Kavya,Bhat,Sapphire Steel,Purchase Manager,kavya.bhat212@sapphiresteel.in,+91 9895731861,Partner Referral,Closed - Converted,Telecommunications,Jaipur,Rajasthan,India,Hot
+Ajay,Joshi,Bluechip Finance,Operations Manager,ajay.joshi213@bluechipfinance.in,+91 9661913070,Partner Referral,Closed - Converted,Retail,Ahmedabad,Gujarat,India,Hot
+Arjun,Reddy,Bluechip Logistics,Operations Manager,arjun.reddy214@bluechiplogistics.in,+91 9261698150,Partner Referral,Closed - Not Converted,Healthcare,Bengaluru,Karnataka,India,Warm
+Ajay,Rao,Sri Solutions,Purchase Manager,ajay.rao215@srisolutions.in,+91 9696192799,Web,Closed - Converted,Retail,Chennai,Tamil Nadu,India,Cold
+Divya,Nair,Kaveri Finance,Operations Manager,divya.nair216@kaverifinance.in,+91 9935484171,Phone Inquiry,Closed - Converted,Telecommunications,Chennai,Tamil Nadu,India,Warm
+Suresh,Naidu,Zenith Logistics,CEO,suresh.naidu217@zenithlogistics.in,+91 9215753947,Web,Closed - Converted,Technology,Mumbai,Maharashtra,India,Hot
+Harini,Pillai,Godavari Technologies,Sales Director,harini.pillai218@godavaritechnologies.in,+91 9503261738,Partner Referral,Closed - Not Converted,Healthcare,Mumbai,Maharashtra,India,Hot
+Arjun,Reddy,Pinnacle Finance,Operations Manager,arjun.reddy219@pinnaclefinance.in,+91 9318189998,Web,Working - Contacted,Energy,Kolkata,West Bengal,India,Cold
+Arjun,Joshi,Everest Retail,Procurement Lead,arjun.joshi220@everestretail.in,+91 9925923933,Purchased List,Open - Not Contacted,Manufacturing,Jaipur,Rajasthan,India,Warm
+Meera,Rao,Sahyadri Technologies,Purchase Manager,meera.rao221@sahyadritechnologies.in,+91 9273514221,Purchased List,Working - Contacted,Construction,Ahmedabad,Gujarat,India,Cold
+Naveen,Patel,Krishna Technologies,Operations Manager,naveen.patel222@krishnatechnologies.in,+91 9149595315,Purchased List,Closed - Not Converted,Telecommunications,Mumbai,Maharashtra,India,Hot
+Anjali,Nair,Trident Steel,IT Manager,anjali.nair223@tridentsteel.in,+91 9110120706,Purchased List,Open - Not Contacted,Retail,Hyderabad,Telangana,India,Hot
+Sanjay,Naidu,Vedanta Motors,CTO,sanjay.naidu224@vedantamotors.in,+91 9544745540,Partner Referral,Working - Contacted,Energy,Ahmedabad,Gujarat,India,Warm
+Prakash,Sharma,Krishna Retail,CEO,prakash.sharma225@krishnaretail.in,+91 9140666911,Purchased List,Open - Not Contacted,Construction,Mumbai,Maharashtra,India,Hot
+Rajesh,Singh,Vedanta Finance,Operations Manager,rajesh.singh226@vedantafinance.in,+91 9169317285,Web,Closed - Not Converted,Banking,Hyderabad,Telangana,India,Warm
+Kiran,Mehta,Orbit Technologies,IT Manager,kiran.mehta227@orbittechnologies.in,+91 9779894744,Web,Closed - Converted,Transportation,Chennai,Tamil Nadu,India,Hot
+Sanjay,Naidu,Everest Pharma,Purchase Manager,sanjay.naidu228@everestpharma.in,+91 9885333004,Other,Open - Not Contacted,Manufacturing,New Delhi,Delhi,India,Hot
+Arjun,Menon,Apex Technologies,Sales Director,arjun.menon229@apextechnologies.in,+91 9947739352,Phone Inquiry,Working - Contacted,Education,Mumbai,Maharashtra,India,Warm
+Ravi,Verma,Nova Steel,Operations Manager,ravi.verma230@novasteel.in,+91 9841191129,Phone Inquiry,Working - Contacted,Retail,Ahmedabad,Gujarat,India,Warm
+Anjali,Verma,Bluechip Textiles,Sales Director,anjali.verma231@bluechiptextiles.in,+91 9917072415,Other,Working - Contacted,Energy,Kolkata,West Bengal,India,Hot
+Prakash,Reddy,Lotus Solutions,Finance Head,prakash.reddy232@lotussolutions.in,+91 9844817360,Other,Closed - Converted,Energy,Kochi,Kerala,India,Hot
+Venkat,Patel,Vedanta Pharma,CEO,venkat.patel233@vedantapharma.in,+91 9535745242,Purchased List,Closed - Converted,Education,Jaipur,Rajasthan,India,Cold
+Manish,Das,Bluechip Steel,CEO,manish.das234@bluechipsteel.in,+91 9608384699,Phone Inquiry,Closed - Converted,Telecommunications,New Delhi,Delhi,India,Cold
+Rahul,Bhat,Zenith Retail,CTO,rahul.bhat235@zenithretail.in,+91 9522543024,Phone Inquiry,Closed - Not Converted,Retail,Kolkata,West Bengal,India,Cold
+Neha,Verma,Apex Steel,Finance Head,neha.verma236@apexsteel.in,+91 9381618699,Partner Referral,Closed - Not Converted,Telecommunications,Kochi,Kerala,India,Cold
+Divya,Mehta,Krishna Logistics,IT Manager,divya.mehta237@krishnalogistics.in,+91 9170705985,Web,Closed - Not Converted,Transportation,Jaipur,Rajasthan,India,Warm
+Sanjay,Patel,Neelkanth Motors,IT Manager,sanjay.patel238@neelkanthmotors.in,+91 9263699603,Web,Closed - Not Converted,Telecommunications,New Delhi,Delhi,India,Hot
+Manish,Sharma,Sahyadri Textiles,Sales Director,manish.sharma239@sahyadritextiles.in,+91 9232106766,Purchased List,Working - Contacted,Retail,New Delhi,Delhi,India,Warm
+Sneha,Naidu,Godavari Steel,Procurement Lead,sneha.naidu240@godavaristeel.in,+91 9811072557,Phone Inquiry,Open - Not Contacted,Energy,Kochi,Kerala,India,Warm
+Naveen,Iyer,Sunrise Steel,IT Manager,naveen.iyer241@sunrisesteel.in,+91 9914758316,Partner Referral,Closed - Converted,Technology,Ahmedabad,Gujarat,India,Cold
+Kiran,Naidu,Everest Energy,Operations Manager,kiran.naidu242@everestenergy.in,+91 9960665130,Partner Referral,Working - Contacted,Technology,Mumbai,Maharashtra,India,Cold
+Suresh,Reddy,Krishna Infra,Finance Head,suresh.reddy243@krishnainfra.in,+91 9871140465,Partner Referral,Closed - Converted,Education,Hyderabad,Telangana,India,Warm
+Lakshmi,Menon,Sunrise Pharma,CTO,lakshmi.menon244@sunrisepharma.in,+91 9316555410,Partner Referral,Open - Not Contacted,Retail,Kochi,Kerala,India,Cold
+Ajay,Naidu,Nova Finance,CEO,ajay.naidu245@novafinance.in,+91 9865080132,Phone Inquiry,Closed - Not Converted,Energy,Ahmedabad,Gujarat,India,Warm
+Manish,Menon,Godavari Retail,IT Manager,manish.menon246@godavariretail.in,+91 9764169143,Purchased List,Open - Not Contacted,Construction,Kolkata,West Bengal,India,Warm
+Anil,Patel,Sahyadri Pharma,Sales Director,anil.patel247@sahyadripharma.in,+91 9522259422,Purchased List,Working - Contacted,Telecommunications,Bengaluru,Karnataka,India,Cold
+Ajay,Reddy,Vedanta Solutions,Procurement Lead,ajay.reddy248@vedantasolutions.in,+91 9852634004,Phone Inquiry,Closed - Not Converted,Energy,Jaipur,Rajasthan,India,Warm
+Deepa,Rao,Sunrise Textiles,CEO,deepa.rao249@sunrisetextiles.in,+91 9819815601,Web,Open - Not Contacted,Healthcare,Ahmedabad,Gujarat,India,Warm

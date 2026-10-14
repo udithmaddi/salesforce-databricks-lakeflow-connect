@@ -1,0 +1,153 @@
+First Name,Last Name,Account Name,Title,Email,Phone,Mailing City,Mailing State,Mailing Country
+Arjun,Sharma,Apex Energy,Procurement Lead,arjun.sharma1@apexenergy.in,+91 9703152336,Kochi,Kerala,India
+Ravi,Rao,Apex Energy,Purchase Manager,ravi.rao2@apexenergy.in,+91 9843814251,Kochi,Kerala,India
+Naveen,Mehta,Apex Infra,Purchase Manager,naveen.mehta3@apexinfra.in,+91 9850779486,New Delhi,Delhi,India
+Sanjay,Menon,Apex Infra,Procurement Lead,sanjay.menon4@apexinfra.in,+91 9247246981,New Delhi,Delhi,India
+Anjali,Iyer,Apex Infra,Operations Manager,anjali.iyer5@apexinfra.in,+91 9177895777,New Delhi,Delhi,India
+Anjali,Rao,Apex Motors,CTO,anjali.rao6@apexmotors.in,+91 9934225020,Bengaluru,Karnataka,India
+Kiran,Naidu,Apex Motors,IT Manager,kiran.naidu7@apexmotors.in,+91 9602227527,Bengaluru,Karnataka,India
+Bhavana,Iyer,Apex Solutions,IT Manager,bhavana.iyer8@apexsolutions.in,+91 9817080188,Mumbai,Maharashtra,India
+Venkat,Kumar,Apex Solutions,Sales Director,venkat.kumar9@apexsolutions.in,+91 9464123187,Mumbai,Maharashtra,India
+Suresh,Naidu,Apex Technologies,Operations Manager,suresh.naidu10@apextechnologies.in,+91 9120919637,Chennai,Tamil Nadu,India
+Rahul,Bhat,Apex Technologies,CEO,rahul.bhat11@apextechnologies.in,+91 9512686830,Chennai,Tamil Nadu,India
+Rahul,Mehta,Apex Technologies,CTO,rahul.mehta12@apextechnologies.in,+91 9221171715,Chennai,Tamil Nadu,India
+Prakash,Iyer,Apex Textiles,Finance Head,prakash.iyer13@apextextiles.in,+91 9142507489,Chennai,Tamil Nadu,India
+Prakash,Gupta,Apex Textiles,Sales Director,prakash.gupta14@apextextiles.in,+91 9825821165,Chennai,Tamil Nadu,India
+Vikram,Nair,Bluechip Infra,Procurement Lead,vikram.nair15@bluechipinfra.in,+91 9852067507,Jaipur,Rajasthan,India
+Rahul,Rao,Bluechip Infra,IT Manager,rahul.rao16@bluechipinfra.in,+91 9556680688,Jaipur,Rajasthan,India
+Prakash,Rao,Bluechip Infra,CTO,prakash.rao17@bluechipinfra.in,+91 9960742147,Jaipur,Rajasthan,India
+Anil,Kumar,Bluechip Motors,CTO,anil.kumar18@bluechipmotors.in,+91 9587235608,Kochi,Kerala,India
+Ravi,Verma,Bluechip Motors,Finance Head,ravi.verma19@bluechipmotors.in,+91 9767549003,Kochi,Kerala,India
+Kiran,Sharma,Bluechip Motors,CTO,kiran.sharma20@bluechipmotors.in,+91 9273354647,Kochi,Kerala,India
+Priya,Gupta,Bluechip Pharma,Finance Head,priya.gupta21@bluechippharma.in,+91 9670249079,Hyderabad,Telangana,India
+Ajay,Patel,Bluechip Pharma,IT Manager,ajay.patel22@bluechippharma.in,+91 9390471177,Hyderabad,Telangana,India
+Divya,Reddy,Bluechip Pharma,CEO,divya.reddy23@bluechippharma.in,+91 9119793247,Hyderabad,Telangana,India
+Sanjay,Chowdary,Bluechip Textiles,CTO,sanjay.chowdary24@bluechiptextiles.in,+91 9806866056,Kolkata,West Bengal,India
+Venkat,Singh,Bluechip Textiles,Sales Director,venkat.singh25@bluechiptextiles.in,+91 9644049901,Kolkata,West Bengal,India
+Srinivas,Patel,Everest Finance,Purchase Manager,srinivas.patel26@everestfinance.in,+91 9993660865,Bengaluru,Karnataka,India
+Prakash,Nair,Everest Finance,CEO,prakash.nair27@everestfinance.in,+91 9998709387,Bengaluru,Karnataka,India
+Kiran,Reddy,Everest Finance,Sales Director,kiran.reddy28@everestfinance.in,+91 9275284619,Bengaluru,Karnataka,India
+Anil,Pillai,Everest Solutions,Finance Head,anil.pillai29@everestsolutions.in,+91 9742933425,Hyderabad,Telangana,India
+Lakshmi,Joshi,Everest Solutions,IT Manager,lakshmi.joshi30@everestsolutions.in,+91 9269149705,Hyderabad,Telangana,India
+Naveen,Reddy,Everest Textiles,Operations Manager,naveen.reddy31@everesttextiles.in,+91 9687415564,Ahmedabad,Gujarat,India
+Rahul,Kumar,Everest Textiles,Purchase Manager,rahul.kumar32@everesttextiles.in,+91 9482879064,Ahmedabad,Gujarat,India
+Deepa,Reddy,Everest Textiles,CTO,deepa.reddy33@everesttextiles.in,+91 9609644716,Ahmedabad,Gujarat,India
+Sanjay,Patel,Godavari Infra,CEO,sanjay.patel34@godavariinfra.in,+91 9197551269,Jaipur,Rajasthan,India
+Arjun,Rao,Godavari Infra,CEO,arjun.rao35@godavariinfra.in,+91 9523031348,Jaipur,Rajasthan,India
+Ravi,Joshi,Godavari Infra,CTO,ravi.joshi36@godavariinfra.in,+91 9728765263,Jaipur,Rajasthan,India
+Neha,Pillai,Godavari Solutions,Procurement Lead,neha.pillai37@godavarisolutions.in,+91 9260484838,Jaipur,Rajasthan,India
+Meera,Nair,Godavari Solutions,Sales Director,meera.nair38@godavarisolutions.in,+91 9887967718,Jaipur,Rajasthan,India
+Ramya,Mehta,Godavari Technologies,CEO,ramya.mehta39@godavaritechnologies.in,+91 9987350033,New Delhi,Delhi,India
+Neha,Kumar,Godavari Technologies,CEO,neha.kumar40@godavaritechnologies.in,+91 9242907728,New Delhi,Delhi,India
+Sneha,Pillai,Harmony Pharma,CEO,sneha.pillai41@harmonypharma.in,+91 9774059801,Mumbai,Maharashtra,India
+Ravi,Bhat,Harmony Pharma,Procurement Lead,ravi.bhat42@harmonypharma.in,+91 9383245470,Mumbai,Maharashtra,India
+Ravi,Das,Harmony Pharma,CTO,ravi.das43@harmonypharma.in,+91 9807917432,Mumbai,Maharashtra,India
+Bhavana,Chowdary,Indus Foods,Finance Head,bhavana.chowdary44@indusfoods.in,+91 9352099141,Pune,Maharashtra,India
+Bhavana,Patel,Indus Foods,Procurement Lead,bhavana.patel45@indusfoods.in,+91 9510771188,Pune,Maharashtra,India
+Pooja,Joshi,Indus Logistics,Purchase Manager,pooja.joshi46@induslogistics.in,+91 9183184731,Ahmedabad,Gujarat,India
+Swathi,Nair,Indus Logistics,Finance Head,swathi.nair47@induslogistics.in,+91 9766955542,Ahmedabad,Gujarat,India
+Ravi,Chowdary,Indus Technologies,Finance Head,ravi.chowdary48@industechnologies.in,+91 9821556201,Ahmedabad,Gujarat,India
+Sneha,Patel,Indus Technologies,Finance Head,sneha.patel49@industechnologies.in,+91 9861144359,Ahmedabad,Gujarat,India
+Naveen,Das,Kaveri Pharma,Purchase Manager,naveen.das50@kaveripharma.in,+91 9434658118,Bengaluru,Karnataka,India
+Anil,Chowdary,Kaveri Pharma,Procurement Lead,anil.chowdary51@kaveripharma.in,+91 9182102849,Bengaluru,Karnataka,India
+Venkat,Mehta,Kaveri Pharma,Finance Head,venkat.mehta52@kaveripharma.in,+91 9515375252,Bengaluru,Karnataka,India
+Ramya,Patel,Kaveri Solutions,IT Manager,ramya.patel53@kaverisolutions.in,+91 9902607174,New Delhi,Delhi,India
+Sanjay,Menon,Kaveri Solutions,IT Manager,sanjay.menon54@kaverisolutions.in,+91 9747859029,New Delhi,Delhi,India
+Prakash,Iyer,Krishna Foods,Purchase Manager,prakash.iyer55@krishnafoods.in,+91 9634603117,Chennai,Tamil Nadu,India
+Prakash,Chowdary,Krishna Foods,IT Manager,prakash.chowdary56@krishnafoods.in,+91 9103855236,Chennai,Tamil Nadu,India
+Pooja,Das,Krishna Foods,IT Manager,pooja.das57@krishnafoods.in,+91 9546871154,Chennai,Tamil Nadu,India
+Vikram,Verma,Krishna Infra,CEO,vikram.verma58@krishnainfra.in,+91 9448480313,Kochi,Kerala,India
+Ajay,Verma,Krishna Infra,CTO,ajay.verma59@krishnainfra.in,+91 9310175441,Kochi,Kerala,India
+Srinivas,Reddy,Krishna Infra,Finance Head,srinivas.reddy60@krishnainfra.in,+91 9499670335,Kochi,Kerala,India
+Vikram,Pillai,Krishna Logistics,Operations Manager,vikram.pillai61@krishnalogistics.in,+91 9559618139,Kochi,Kerala,India
+Ajay,Menon,Krishna Logistics,Finance Head,ajay.menon62@krishnalogistics.in,+91 9209210128,Kochi,Kerala,India
+Venkat,Joshi,Krishna Solutions,Purchase Manager,venkat.joshi63@krishnasolutions.in,+91 9385323284,Bengaluru,Karnataka,India
+Anjali,Mehta,Krishna Solutions,Operations Manager,anjali.mehta64@krishnasolutions.in,+91 9943040526,Bengaluru,Karnataka,India
+Prakash,Reddy,Krishna Steel,Purchase Manager,prakash.reddy65@krishnasteel.in,+91 9872635177,Chennai,Tamil Nadu,India
+Anil,Sharma,Krishna Steel,Procurement Lead,anil.sharma66@krishnasteel.in,+91 9760258959,Chennai,Tamil Nadu,India
+Ajay,Nair,Krishna Steel,Procurement Lead,ajay.nair67@krishnasteel.in,+91 9152588544,Chennai,Tamil Nadu,India
+Deepa,Chowdary,Krishna Technologies,Finance Head,deepa.chowdary68@krishnatechnologies.in,+91 9419730111,Kochi,Kerala,India
+Arjun,Menon,Krishna Technologies,Finance Head,arjun.menon69@krishnatechnologies.in,+91 9618812745,Kochi,Kerala,India
+Sneha,Gupta,Lotus Motors,CTO,sneha.gupta70@lotusmotors.in,+91 9323201421,Mumbai,Maharashtra,India
+Sanjay,Chowdary,Lotus Motors,Procurement Lead,sanjay.chowdary71@lotusmotors.in,+91 9457378061,Mumbai,Maharashtra,India
+Ajay,Das,Lotus Motors,Purchase Manager,ajay.das72@lotusmotors.in,+91 9362084953,Mumbai,Maharashtra,India
+Deepa,Verma,Lotus Pharma,Operations Manager,deepa.verma73@lotuspharma.in,+91 9356760208,Kolkata,West Bengal,India
+Divya,Menon,Lotus Pharma,CEO,divya.menon74@lotuspharma.in,+91 9904938723,Kolkata,West Bengal,India
+Vikram,Singh,Lotus Technologies,Purchase Manager,vikram.singh75@lotustechnologies.in,+91 9504656588,Ahmedabad,Gujarat,India
+Arjun,Verma,Lotus Technologies,Procurement Lead,arjun.verma76@lotustechnologies.in,+91 9397980907,Ahmedabad,Gujarat,India
+Rajesh,Naidu,Lotus Technologies,Purchase Manager,rajesh.naidu77@lotustechnologies.in,+91 9199426515,Ahmedabad,Gujarat,India
+Prakash,Kumar,Lotus Textiles,Procurement Lead,prakash.kumar78@lotustextiles.in,+91 9563681107,Hyderabad,Telangana,India
+Meera,Reddy,Lotus Textiles,Sales Director,meera.reddy79@lotustextiles.in,+91 9861832472,Hyderabad,Telangana,India
+Ajay,Chowdary,Lotus Textiles,CEO,ajay.chowdary80@lotustextiles.in,+91 9178531200,Hyderabad,Telangana,India
+Ramya,Mehta,Neelkanth Logistics,Procurement Lead,ramya.mehta81@neelkanthlogistics.in,+91 9366787564,Mumbai,Maharashtra,India
+Harini,Iyer,Neelkanth Logistics,IT Manager,harini.iyer82@neelkanthlogistics.in,+91 9660885798,Mumbai,Maharashtra,India
+Neha,Iyer,Neelkanth Logistics,CTO,neha.iyer83@neelkanthlogistics.in,+91 9692169593,Mumbai,Maharashtra,India
+Ravi,Nair,Nova Energy,Finance Head,ravi.nair84@novaenergy.in,+91 9237403356,New Delhi,Delhi,India
+Manish,Menon,Nova Energy,CTO,manish.menon85@novaenergy.in,+91 9206778028,New Delhi,Delhi,India
+Meera,Mehta,Nova Pharma,Sales Director,meera.mehta86@novapharma.in,+91 9380119790,Bengaluru,Karnataka,India
+Lakshmi,Reddy,Nova Pharma,Finance Head,lakshmi.reddy87@novapharma.in,+91 9594662796,Bengaluru,Karnataka,India
+Rahul,Kumar,Nova Retail,Purchase Manager,rahul.kumar88@novaretail.in,+91 9687339177,New Delhi,Delhi,India
+Lakshmi,Reddy,Nova Retail,Finance Head,lakshmi.reddy89@novaretail.in,+91 9159387283,New Delhi,Delhi,India
+Ravi,Patel,Nova Retail,CTO,ravi.patel90@novaretail.in,+91 9376226659,New Delhi,Delhi,India
+Neha,Singh,Nova Solutions,Purchase Manager,neha.singh91@novasolutions.in,+91 9629294005,Jaipur,Rajasthan,India
+Priya,Verma,Nova Solutions,Operations Manager,priya.verma92@novasolutions.in,+91 9832900394,Jaipur,Rajasthan,India
+Suresh,Reddy,Nova Steel,CTO,suresh.reddy93@novasteel.in,+91 9320351782,New Delhi,Delhi,India
+Pooja,Patel,Nova Steel,Purchase Manager,pooja.patel94@novasteel.in,+91 9599412437,New Delhi,Delhi,India
+Lakshmi,Menon,Nova Steel,CTO,lakshmi.menon95@novasteel.in,+91 9769582197,New Delhi,Delhi,India
+Swathi,Gupta,Orbit Motors,Procurement Lead,swathi.gupta96@orbitmotors.in,+91 9547781560,Kolkata,West Bengal,India
+Ramya,Sharma,Orbit Motors,Sales Director,ramya.sharma97@orbitmotors.in,+91 9158366867,Kolkata,West Bengal,India
+Suresh,Reddy,Orbit Motors,Sales Director,suresh.reddy98@orbitmotors.in,+91 9155663352,Kolkata,West Bengal,India
+Deepa,Pillai,Orbit Pharma,CTO,deepa.pillai99@orbitpharma.in,+91 9185213425,Kolkata,West Bengal,India
+Ramya,Gupta,Orbit Pharma,IT Manager,ramya.gupta100@orbitpharma.in,+91 9800582441,Kolkata,West Bengal,India
+Priya,Joshi,Sahyadri Finance,Operations Manager,priya.joshi101@sahyadrifinance.in,+91 9456157464,Kolkata,West Bengal,India
+Naveen,Gupta,Sahyadri Finance,CTO,naveen.gupta102@sahyadrifinance.in,+91 9400439865,Kolkata,West Bengal,India
+Anil,Naidu,Sahyadri Finance,Purchase Manager,anil.naidu103@sahyadrifinance.in,+91 9508161147,Kolkata,West Bengal,India
+Ajay,Joshi,Sahyadri Logistics,CTO,ajay.joshi104@sahyadrilogistics.in,+91 9152889659,Bengaluru,Karnataka,India
+Srinivas,Chowdary,Sahyadri Logistics,Procurement Lead,srinivas.chowdary105@sahyadrilogistics.in,+91 9307260292,Bengaluru,Karnataka,India
+Rahul,Naidu,Sahyadri Logistics,CEO,rahul.naidu106@sahyadrilogistics.in,+91 9778242045,Bengaluru,Karnataka,India
+Lakshmi,Pillai,Sahyadri Motors,CEO,lakshmi.pillai107@sahyadrimotors.in,+91 9598270556,Hyderabad,Telangana,India
+Anil,Sharma,Sahyadri Motors,CTO,anil.sharma108@sahyadrimotors.in,+91 9750275541,Hyderabad,Telangana,India
+Rahul,Naidu,Sahyadri Motors,CEO,rahul.naidu109@sahyadrimotors.in,+91 9381505551,Hyderabad,Telangana,India
+Ramya,Menon,Sapphire Energy,CTO,ramya.menon110@sapphireenergy.in,+91 9126045435,Chennai,Tamil Nadu,India
+Venkat,Kumar,Sapphire Energy,Procurement Lead,venkat.kumar111@sapphireenergy.in,+91 9933606632,Chennai,Tamil Nadu,India
+Vikram,Menon,Sapphire Energy,Procurement Lead,vikram.menon112@sapphireenergy.in,+91 9242493350,Chennai,Tamil Nadu,India
+Deepa,Reddy,Sapphire Textiles,IT Manager,deepa.reddy113@sapphiretextiles.in,+91 9752034264,New Delhi,Delhi,India
+Lakshmi,Verma,Sapphire Textiles,Procurement Lead,lakshmi.verma114@sapphiretextiles.in,+91 9488542540,New Delhi,Delhi,India
+Harini,Rao,Sapphire Textiles,Sales Director,harini.rao115@sapphiretextiles.in,+91 9908404833,New Delhi,Delhi,India
+Lakshmi,Singh,Sunrise Foods,Procurement Lead,lakshmi.singh116@sunrisefoods.in,+91 9693343976,Chennai,Tamil Nadu,India
+Kavya,Verma,Sunrise Foods,CTO,kavya.verma117@sunrisefoods.in,+91 9177486627,Chennai,Tamil Nadu,India
+Swathi,Rao,Sunrise Infra,Sales Director,swathi.rao118@sunriseinfra.in,+91 9635233736,Bengaluru,Karnataka,India
+Srinivas,Das,Sunrise Infra,IT Manager,srinivas.das119@sunriseinfra.in,+91 9547579219,Bengaluru,Karnataka,India
+Naveen,Kumar,Sunrise Infra,CTO,naveen.kumar120@sunriseinfra.in,+91 9937250820,Bengaluru,Karnataka,India
+Meera,Menon,Sunrise Pharma,Operations Manager,meera.menon121@sunrisepharma.in,+91 9372791093,Kolkata,West Bengal,India
+Bhavana,Menon,Sunrise Pharma,Purchase Manager,bhavana.menon122@sunrisepharma.in,+91 9299432962,Kolkata,West Bengal,India
+Lakshmi,Kumar,Sunrise Pharma,Purchase Manager,lakshmi.kumar123@sunrisepharma.in,+91 9450402672,Kolkata,West Bengal,India
+Vikram,Menon,Sunrise Textiles,Purchase Manager,vikram.menon124@sunrisetextiles.in,+91 9797546341,Pune,Maharashtra,India
+Harini,Iyer,Sunrise Textiles,CEO,harini.iyer125@sunrisetextiles.in,+91 9209878605,Pune,Maharashtra,India
+Pooja,Kumar,Trident Energy,Operations Manager,pooja.kumar126@tridentenergy.in,+91 9143338216,Mumbai,Maharashtra,India
+Prakash,Joshi,Trident Energy,CEO,prakash.joshi127@tridentenergy.in,+91 9303552653,Mumbai,Maharashtra,India
+Ramya,Rao,Trident Motors,IT Manager,ramya.rao128@tridentmotors.in,+91 9582232329,Kochi,Kerala,India
+Swathi,Menon,Trident Motors,CTO,swathi.menon129@tridentmotors.in,+91 9784464559,Kochi,Kerala,India
+Suresh,Sharma,Trident Steel,IT Manager,suresh.sharma130@tridentsteel.in,+91 9147423455,New Delhi,Delhi,India
+Suresh,Menon,Trident Steel,CEO,suresh.menon131@tridentsteel.in,+91 9979215354,New Delhi,Delhi,India
+Rahul,Singh,Trident Steel,IT Manager,rahul.singh132@tridentsteel.in,+91 9766808484,New Delhi,Delhi,India
+Anil,Patel,Trident Textiles,Procurement Lead,anil.patel133@tridenttextiles.in,+91 9167936803,Kochi,Kerala,India
+Anjali,Iyer,Trident Textiles,IT Manager,anjali.iyer134@tridenttextiles.in,+91 9786316388,Kochi,Kerala,India
+Kavya,Rao,Trident Textiles,Sales Director,kavya.rao135@tridenttextiles.in,+91 9846686387,Kochi,Kerala,India
+Anjali,Joshi,Vedanta Energy,Sales Director,anjali.joshi136@vedantaenergy.in,+91 9155148117,Kochi,Kerala,India
+Meera,Naidu,Vedanta Energy,CEO,meera.naidu137@vedantaenergy.in,+91 9923197717,Kochi,Kerala,India
+Harini,Naidu,Vedanta Energy,Sales Director,harini.naidu138@vedantaenergy.in,+91 9881718087,Kochi,Kerala,India
+Suresh,Reddy,Vedanta Logistics,Sales Director,suresh.reddy139@vedantalogistics.in,+91 9221911884,Hyderabad,Telangana,India
+Venkat,Rao,Vedanta Logistics,Procurement Lead,venkat.rao140@vedantalogistics.in,+91 9930060939,Hyderabad,Telangana,India
+Deepa,Nair,Vedanta Logistics,IT Manager,deepa.nair141@vedantalogistics.in,+91 9787910620,Hyderabad,Telangana,India
+Anil,Naidu,Vedanta Retail,IT Manager,anil.naidu142@vedantaretail.in,+91 9256644784,Hyderabad,Telangana,India
+Divya,Joshi,Vedanta Retail,IT Manager,divya.joshi143@vedantaretail.in,+91 9172044581,Hyderabad,Telangana,India
+Sneha,Pillai,Vedanta Retail,Finance Head,sneha.pillai144@vedantaretail.in,+91 9235989781,Hyderabad,Telangana,India
+Ramya,Chowdary,Vedanta Solutions,Sales Director,ramya.chowdary145@vedantasolutions.in,+91 9192657934,Ahmedabad,Gujarat,India
+Prakash,Gupta,Vedanta Solutions,Sales Director,prakash.gupta146@vedantasolutions.in,+91 9760060350,Ahmedabad,Gujarat,India
+Venkat,Chowdary,Zenith Logistics,CEO,venkat.chowdary147@zenithlogistics.in,+91 9529223548,Kochi,Kerala,India
+Sanjay,Gupta,Zenith Logistics,CTO,sanjay.gupta148@zenithlogistics.in,+91 9260489123,Kochi,Kerala,India
+Bhavana,Patel,Zenith Steel,Operations Manager,bhavana.patel149@zenithsteel.in,+91 9226412717,Kochi,Kerala,India
+Vikram,Das,Zenith Steel,Sales Director,vikram.das150@zenithsteel.in,+91 9430939711,Kochi,Kerala,India
+Anjali,Pillai,Zenith Technologies,Procurement Lead,anjali.pillai151@zenithtechnologies.in,+91 9640713189,Bengaluru,Karnataka,India
+Naveen,Gupta,Zenith Technologies,Procurement Lead,naveen.gupta152@zenithtechnologies.in,+91 9599583224,Bengaluru,Karnataka,India

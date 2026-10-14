@@ -1,0 +1,869 @@
+{
+  "datasets": [
+    {
+      "name": "9c1973ac",
+      "displayName": "ds_kpis",
+      "queryLines": [
+        "SELECT\n",
+        "  (SELECT COUNT(*) FROM crm_poc.gold.customer_overview) AS total_customers,\n",
+        "  (SELECT SUM(pipeline_inr) FROM crm_poc.gold.opportunity_pipeline) AS open_pipeline_inr,\n",
+        "  (SELECT SUM(won_revenue_inr) FROM crm_poc.gold.sales_trends) AS won_revenue_inr,\n",
+        "  (SELECT ROUND(100.0 * SUM(converted_leads) / SUM(total_leads), 1) FROM crm_poc.gold.lead_conversion) AS lead_conversion_pct,\n",
+        "  (SELECT dq_score_pct FROM crm_poc.gold.data_quality_score) AS dq_score_pct"
+      ]
+    },
+    {
+      "name": "9b25dc80",
+      "displayName": "ds_pipeline_by_stage",
+      "queryLines": [
+        "SELECT stage, stage_order, industry, lead_source, close_month,\n",
+        "       SUM(deal_count) AS deals,\n",
+        "       SUM(pipeline_inr) AS pipeline_inr,\n",
+        "       SUM(weighted_pipeline_inr) AS weighted_pipeline_inr\n",
+        "FROM crm_poc.gold.opportunity_pipeline\n",
+        "GROUP BY stage, stage_order, industry, lead_source, close_month"
+      ]
+    },
+    {
+      "name": "8dda475a",
+      "displayName": "ds_sales_trends",
+      "queryLines": [
+        "SELECT month, won_revenue_inr, won_deals, lost_deals, avg_won_deal_inr, win_rate_pct\n",
+        "FROM crm_poc.gold.sales_trends\n",
+        "ORDER BY month"
+      ]
+    },
+    {
+      "name": "20d48a76",
+      "displayName": "ds_lead_conversion",
+      "queryLines": [
+        "SELECT lead_source, total_leads, converted_leads, open_leads, conversion_pct\n",
+        "FROM crm_poc.gold.lead_conversion\n",
+        "ORDER BY conversion_pct DESC"
+      ]
+    },
+    {
+      "name": "18562bdc",
+      "displayName": "ds_top_customers",
+      "queryLines": [
+        "SELECT account_name, industry, city, contact_count, won_deals,\n",
+        "       won_revenue_inr, open_pipeline_inr\n",
+        "FROM crm_poc.gold.customer_overview\n",
+        "ORDER BY won_revenue_inr DESC\n",
+        "LIMIT 10"
+      ]
+    },
+    {
+      "name": "863984ce",
+      "displayName": "ds_hot_leads",
+      "queryLines": [
+        "SELECT lead_grade, lead_score, lead_name, company, title, lead_source, rating, city, email\n",
+        "FROM crm_poc.gold.lead_scores\n",
+        "WHERE lead_grade = 'Hot'\n",
+        "ORDER BY lead_score DESC"
+      ]
+    },
+    {
+      "name": "5b6fe589",
+      "displayName": "ds_at_risk_deals",
+      "queryLines": [
+        "SELECT risk_level, opportunity_name, account_name, stage, amount_inr,\n",
+        "       close_date, days_to_close, risk_reason\n",
+        "FROM crm_poc.gold.at_risk_deals\n",
+        "ORDER BY risk_level, amount_inr DESC"
+      ]
+    },
+    {
+      "name": "65ac1a69",
+      "displayName": "ds_data_quality",
+      "queryLines": [
+        "SELECT object_name, total_rows, failed_rows, pass_pct, checked_at\n",
+        "FROM crm_poc.gold.data_quality_checks\n",
+        "ORDER BY object_name"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "sales_insights",
+      "displayName": "Sales Insights",
+      "layout": [
+        {
+          "widget": {
+            "name": "title_text",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Sales Insights - CRM POC\n",
+                "Salesforce data loaded with Lakeflow Connect. Bronze, Silver and Gold refresh every day at 7:00 AM IST. Amounts in INR."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_customers",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9c1973ac",
+                  "fields": [
+                    {
+                      "name": "total_customers",
+                      "expression": "`total_customers`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "total_customers",
+                  "displayName": "Total customers"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Total customers"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_pipeline",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9c1973ac",
+                  "fields": [
+                    {
+                      "name": "open_pipeline_inr",
+                      "expression": "`open_pipeline_inr`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "open_pipeline_inr",
+                  "displayName": "Open pipeline (INR)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Open pipeline (INR)"
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_won",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9c1973ac",
+                  "fields": [
+                    {
+                      "name": "won_revenue_inr",
+                      "expression": "`won_revenue_inr`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "won_revenue_inr",
+                  "displayName": "Won revenue (INR)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Won revenue (INR)"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_conv",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9c1973ac",
+                  "fields": [
+                    {
+                      "name": "lead_conversion_pct",
+                      "expression": "`lead_conversion_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "lead_conversion_pct",
+                  "displayName": "Lead conversion %"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Lead conversion %"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_dq",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9c1973ac",
+                  "fields": [
+                    {
+                      "name": "dq_score_pct",
+                      "expression": "`dq_score_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "dq_score_pct",
+                  "displayName": "Data quality score %"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Data quality score %"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "chart_pipeline",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "9b25dc80",
+                  "fields": [
+                    {
+                      "name": "stage",
+                      "expression": "`stage`"
+                    },
+                    {
+                      "name": "sum(pipeline_inr)",
+                      "expression": "SUM(`pipeline_inr`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "stage",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "y-reversed"
+                    }
+                  },
+                  "displayName": "Stage"
+                },
+                "y": {
+                  "fieldName": "sum(pipeline_inr)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Pipeline (INR)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Open pipeline by stage"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 8,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "chart_revenue",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "8dda475a",
+                  "fields": [
+                    {
+                      "name": "monthly(month)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `month`)"
+                    },
+                    {
+                      "name": "sum(won_revenue_inr)",
+                      "expression": "SUM(`won_revenue_inr`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(month)",
+                  "scale": {
+                    "type": "temporal"
+                  },
+                  "displayName": "Month"
+                },
+                "y": {
+                  "fieldName": "sum(won_revenue_inr)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Won revenue (INR)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Won revenue by month"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 8,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "chart_conversion",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "20d48a76",
+                  "fields": [
+                    {
+                      "name": "lead_source",
+                      "expression": "`lead_source`"
+                    },
+                    {
+                      "name": "conversion_pct",
+                      "expression": "`conversion_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "lead_source",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Lead source"
+                },
+                "y": {
+                  "fieldName": "conversion_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Conversion %"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Lead conversion % by source"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 14,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "tbl_top_customers",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "18562bdc",
+                  "fields": [
+                    {
+                      "name": "account_name",
+                      "expression": "`account_name`"
+                    },
+                    {
+                      "name": "industry",
+                      "expression": "`industry`"
+                    },
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    },
+                    {
+                      "name": "contact_count",
+                      "expression": "`contact_count`"
+                    },
+                    {
+                      "name": "won_deals",
+                      "expression": "`won_deals`"
+                    },
+                    {
+                      "name": "won_revenue_inr",
+                      "expression": "`won_revenue_inr`"
+                    },
+                    {
+                      "name": "open_pipeline_inr",
+                      "expression": "`open_pipeline_inr`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "account_name",
+                    "displayName": "account_name"
+                  },
+                  {
+                    "fieldName": "industry",
+                    "displayName": "industry"
+                  },
+                  {
+                    "fieldName": "city",
+                    "displayName": "city"
+                  },
+                  {
+                    "fieldName": "contact_count",
+                    "displayName": "contact_count"
+                  },
+                  {
+                    "fieldName": "won_deals",
+                    "displayName": "won_deals"
+                  },
+                  {
+                    "fieldName": "won_revenue_inr",
+                    "displayName": "won_revenue_inr"
+                  },
+                  {
+                    "fieldName": "open_pipeline_inr",
+                    "displayName": "open_pipeline_inr"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Top 10 customers by won revenue"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 14,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "tbl_hot_leads",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "863984ce",
+                  "fields": [
+                    {
+                      "name": "lead_grade",
+                      "expression": "`lead_grade`"
+                    },
+                    {
+                      "name": "lead_score",
+                      "expression": "`lead_score`"
+                    },
+                    {
+                      "name": "lead_name",
+                      "expression": "`lead_name`"
+                    },
+                    {
+                      "name": "company",
+                      "expression": "`company`"
+                    },
+                    {
+                      "name": "title",
+                      "expression": "`title`"
+                    },
+                    {
+                      "name": "lead_source",
+                      "expression": "`lead_source`"
+                    },
+                    {
+                      "name": "rating",
+                      "expression": "`rating`"
+                    },
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    },
+                    {
+                      "name": "email",
+                      "expression": "`email`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "lead_grade",
+                    "displayName": "lead_grade"
+                  },
+                  {
+                    "fieldName": "lead_score",
+                    "displayName": "lead_score"
+                  },
+                  {
+                    "fieldName": "lead_name",
+                    "displayName": "lead_name"
+                  },
+                  {
+                    "fieldName": "company",
+                    "displayName": "company"
+                  },
+                  {
+                    "fieldName": "title",
+                    "displayName": "title"
+                  },
+                  {
+                    "fieldName": "lead_source",
+                    "displayName": "lead_source"
+                  },
+                  {
+                    "fieldName": "rating",
+                    "displayName": "rating"
+                  },
+                  {
+                    "fieldName": "city",
+                    "displayName": "city"
+                  },
+                  {
+                    "fieldName": "email",
+                    "displayName": "email"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Hot leads to call first"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 20,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tbl_at_risk",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "5b6fe589",
+                  "fields": [
+                    {
+                      "name": "risk_level",
+                      "expression": "`risk_level`"
+                    },
+                    {
+                      "name": "opportunity_name",
+                      "expression": "`opportunity_name`"
+                    },
+                    {
+                      "name": "account_name",
+                      "expression": "`account_name`"
+                    },
+                    {
+                      "name": "stage",
+                      "expression": "`stage`"
+                    },
+                    {
+                      "name": "amount_inr",
+                      "expression": "`amount_inr`"
+                    },
+                    {
+                      "name": "close_date",
+                      "expression": "`close_date`"
+                    },
+                    {
+                      "name": "days_to_close",
+                      "expression": "`days_to_close`"
+                    },
+                    {
+                      "name": "risk_reason",
+                      "expression": "`risk_reason`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "risk_level",
+                    "displayName": "risk_level"
+                  },
+                  {
+                    "fieldName": "opportunity_name",
+                    "displayName": "opportunity_name"
+                  },
+                  {
+                    "fieldName": "account_name",
+                    "displayName": "account_name"
+                  },
+                  {
+                    "fieldName": "stage",
+                    "displayName": "stage"
+                  },
+                  {
+                    "fieldName": "amount_inr",
+                    "displayName": "amount_inr"
+                  },
+                  {
+                    "fieldName": "close_date",
+                    "displayName": "close_date"
+                  },
+                  {
+                    "fieldName": "days_to_close",
+                    "displayName": "days_to_close"
+                  },
+                  {
+                    "fieldName": "risk_reason",
+                    "displayName": "risk_reason"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "At-risk deals"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 27,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tbl_dq",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "65ac1a69",
+                  "fields": [
+                    {
+                      "name": "object_name",
+                      "expression": "`object_name`"
+                    },
+                    {
+                      "name": "total_rows",
+                      "expression": "`total_rows`"
+                    },
+                    {
+                      "name": "failed_rows",
+                      "expression": "`failed_rows`"
+                    },
+                    {
+                      "name": "pass_pct",
+                      "expression": "`pass_pct`"
+                    },
+                    {
+                      "name": "checked_at",
+                      "expression": "`checked_at`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "object_name",
+                    "displayName": "object_name"
+                  },
+                  {
+                    "fieldName": "total_rows",
+                    "displayName": "total_rows"
+                  },
+                  {
+                    "fieldName": "failed_rows",
+                    "displayName": "failed_rows"
+                  },
+                  {
+                    "fieldName": "pass_pct",
+                    "displayName": "pass_pct"
+                  },
+                  {
+                    "fieldName": "checked_at",
+                    "displayName": "checked_at"
+                  }
+                ]
+              },
+              "invisibleColumns": [],
+              "allowHTMLByDefault": false,
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "condensed": true,
+              "withRowNumber": false,
+              "frame": {
+                "showTitle": true,
+                "title": "Data quality by object"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 34,
+            "width": 6,
+            "height": 4
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ]
+}
