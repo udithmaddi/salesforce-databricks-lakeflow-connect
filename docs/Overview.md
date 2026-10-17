@@ -147,10 +147,16 @@ Use these exact names everywhere (code, job, dashboard, Genie).
 │       └── daily_job_definition.json
 ├── dashboard/
 │   ├── Sales_Insights_CRM_POC.lvdash.json
+│   ├── Sales_Insights_CRM_POC_DASHBOARD.pdf
 │   └── dashboard_datasets.sql
 ├── genie/
 │   ├── genie_general_instructions.txt
 │   └── genie_space_setup.md
+├── screenshots/
+│   ├── 01_salesforce_seller_home.png
+│   ├── 02_dataloader_new_task_menu.png
+│   ├── 03_dataloader_insert_connection_object.png
+│   └── 04_dataloader_task_results.png
 └── docs/
     ├── Overview.md
     ├── architecture_diagram.png
@@ -170,6 +176,8 @@ The numbers on the SQL notebooks (01 to 05) are the order in which they are run.
 | `databricks/sql/05_gold_tables_and_ai_scoring.sql` | 6 and 9 | Gold tables, lead scores, at-risk deals. It is the job task `build_gold`. |
 | `dashboard/dashboard_datasets.sql` | 7 | The eight dashboard queries |
 | `dashboard/Sales_Insights_CRM_POC.lvdash.json` | 7 | Importable dashboard (8 datasets, 13 widgets) |
+| `dashboard/Sales_Insights_CRM_POC_DASHBOARD.pdf` | 7 | PDF export of the published dashboard (17 Oct 2026) |
+| `screenshots/01_` to `04_*.png` | 1 | Salesforce Seller Home and dataloader.io screenshots (login name hidden) |
 | `genie/genie_general_instructions.txt` | 8 | Full Genie instructions to paste |
 | `genie/genie_space_setup.md` | 8 | Genie sources, sample questions, example SQL and tests |
 | `salesforce/CrmPocDataGenerator.cls`, `schedule_data_generator.apex` | 9 | Daily data generator and its schedule lines |
@@ -246,6 +254,15 @@ Accounts first, then Contacts and Opportunities, because those must point to an 
 4. **Save & Run** and check the result: all successes, 0 errors.
 5. Run each Insert task **only once**; running again creates duplicates.
 
+![dataloader.io New Task menu](../screenshots/02_dataloader_new_task_menu.png)
+*dataloader.io: the **New Task** menu has Import, Export and Delete. Choose **Import**.*
+
+![dataloader.io Insert dialog](../screenshots/03_dataloader_insert_connection_object.png)
+*Step 1 of the Insert task: connection, operation **Insert**, and the Salesforce object (for example Account). The next steps are File, Mapping and Run.*
+
+![dataloader.io task results](../screenshots/04_dataloader_task_results.png)
+*The task list after loading. The newer tasks (11 Oct) loaded 60 Accounts, 152 Contacts, 200 Opportunities and 250 Leads with 0 errors. The older tasks (6 Oct) are the first load that was deleted and redone.*
+
 ### 1.5 Lessons learned
 
 | Problem | Cause | Fix |
@@ -258,6 +275,9 @@ Accounts first, then Contacts and Opportunities, because those must point to an 
 ### 1.6 Final check
 
 Our own records: Accounts 60, Contacts 152, Leads 250, Opportunities 200 (owner is your user), and every deal shows its account name. A new org also holds Salesforce's built-in sample records (owner alias `OEPIC`). They were kept, so the **All** lists show 70 / 168 / 272 / 220. API access is on by default in Developer Edition, so Databricks can read the data.
+
+![Salesforce Seller Home](../screenshots/01_salesforce_seller_home.png)
+*Salesforce Seller Home after the daily generator has run. The tiles count records owned by the loaded user: 72 Accounts, 174 Contacts and 311 Leads at that moment.*
 
 **Step 1 done when:** [ ] counts match · [ ] every deal shows its account
 
@@ -585,6 +605,8 @@ Sales trends by month
 
 **What the finished dashboard showed on the first day:** 72 customers, open pipeline ₹134.91M, won revenue ₹137.75M, lead conversion 22.3% and data quality score 99.1%. The quality table showed a few failed rows per object, which are the generator's bad records.
 
+**Dashboard export:** the published dashboard on 17 Oct 2026 is saved as a PDF in [`dashboard/Sales_Insights_CRM_POC_DASHBOARD.pdf`](../dashboard/Sales_Insights_CRM_POC_DASHBOARD.pdf). It shows 84 customers, open pipeline ₹146.61M, won revenue ₹179.05M, lead conversion 18.5% and a data quality score of 98.9%, plus the charts and the Hot leads, at-risk deals and data quality tables.
+
 **Step 7 done when:** [ ] 8 datasets created · [ ] widgets added · [ ] dashboard published · [ ] refresh scheduled at 8:00 AM · [ ] numbers match the Step 6 checks
 
 ---
@@ -815,16 +837,28 @@ SELECT 'Contact', full_name, dq_reason FROM silver.contact WHERE NOT is_valid;
 
 ### Observed results
 
-| Check | 11 Oct (first checks) | 13 Oct, after the automatic 7:00 AM run |
-| --- | --- | --- |
-| Account rows / failed | 74 / 2 | 79 / 4 |
-| Contact rows / failed | 176 / 2 | 185 / 3 |
-| Lead rows / failed | 293 / 1 | 315 / 3 |
-| Opportunity rows / failed | 232 / 2 | 244 / 4 |
-| Pass percentage (Account, Contact, Lead, Opportunity) | 97.3, 98.9, 99.7, 99.1 | 94.9, 98.4, 99.0, 98.4 |
-| Overall pass percentage | about 99.1 | 98.3 (823 rows, 14 failed) |
+Data quality table on the dashboard:
 
-The row counts grew and the failed rows changed without anyone touching the pipeline, which shows the daily generator, the incremental load and the rebuild of Silver and Gold working together. The `checked_at` times on the dashboard are shown in UTC; 01:34 AM UTC is 7:04 AM IST, matching the 7:00 AM job.
+| Check | 11 Oct (first checks) | 13 Oct, after the automatic 7:00 AM run | 17 Oct (dashboard PDF) |
+| --- | --- | --- | --- |
+| Account rows / failed | 74 / 2 | 79 / 4 | 86 / 2 |
+| Contact rows / failed | 176 / 2 | 185 / 3 | 200 / 2 |
+| Lead rows / failed | 293 / 1 | 315 / 3 | 355 / 3 |
+| Opportunity rows / failed | 232 / 2 | 244 / 4 | 263 / 3 |
+| Pass percentage (Account, Contact, Lead, Opportunity) | 97.3, 98.9, 99.7, 99.1 | 94.9, 98.4, 99.0, 98.4 | 97.7, 99.0, 99.2, 98.9 |
+| Overall pass percentage | about 99.1 | 98.3 (823 rows, 14 failed) | 98.9 (904 rows, 10 failed) |
+
+Dashboard counters:
+
+| Counter | 11 Oct | 15 Oct | 17 Oct |
+| --- | --- | --- | --- |
+| Total customers | 72 | 80 | 84 |
+| Open pipeline (INR) | 134.91M | 138.21M | 146.61M |
+| Won revenue (INR) | 137.75M | 173.25M | 179.05M |
+| Lead conversion % | 22.3 | 19.6 | 18.5 |
+| Data quality score % | 99.1 | 99.5 | 98.9 |
+
+The row counts grew and the failed rows changed without anyone touching the pipeline, which shows the daily generator, the incremental load and the rebuild of Silver and Gold working together. The `checked_at` times on the dashboard are shown in UTC; 01:34 AM UTC is 7:04 AM IST, matching the 7:00 AM job on both 13 Oct and 17 Oct.
 
 ### Demo order
 
@@ -881,3 +915,33 @@ Menu names change between Databricks and Salesforce releases. If a screen looks 
 - **Is the lead score real AI?** Today it is a clear points system, easy to explain. The next step is a machine learning model trained on which leads converted.
 - **Why does Salesforce show $ for rupee amounts?** The org default currency is USD. The dashboard labels amounts as INR. Change it in Salesforce under Setup → Company Information → Currency Locale.
 - **What does it cost?** Salesforce Developer Edition is free. Databricks charges for compute; with small data, one job a day and warehouse auto-stop, cost stays low.
+
+---
+
+## Future improvements
+
+| Improvement | Why it helps |
+| --- | --- |
+| Keep one account when names are duplicated | Today both duplicate rows are flagged, so a real customer disappears from Gold until the duplicate is fixed |
+| Store rejected rows in a table | The dashboard could list bad records with their reasons |
+| Daily history tables | Silver and Gold are rebuilt every run, so quality score and pipeline value have no history. One appended row per day enables trends |
+| Configuration table for thresholds | The 20 lakh big-deal limit and the stage order are hard-coded in SQL |
+| More quality rules | For example a valid stage list, a sensible close date range, probability between 0 and 100 |
+| SCD type 2 on Bronze | Needed only to answer questions such as how long deals sit in each stage |
+| Incremental Silver and Gold | Only worth it when the data is large; rebuilding about 1,000 rows takes seconds |
+| Lakeflow Spark Declarative Pipelines | The production approach, with built-in quality expectations and incremental processing |
+
+---
+
+## Project completion checklist
+
+- [ ] Step 1: Salesforce data loaded (60 / 152 / 250 / 200 of our own records)
+- [ ] Step 2: catalog and 3 schemas created
+- [ ] Step 3: Salesforce connection works
+- [ ] Step 4: 4 Bronze tables; counts equal the Salesforce **All** lists
+- [ ] Step 5: 4 Silver tables; quality score at or near 100
+- [ ] Step 6: Gold tables created
+- [ ] Step 7: dashboard published
+- [ ] Step 8: Genie works and refuses to guess
+- [ ] Step 9: generator scheduled at 5:00 AM and the job runs daily at 7:00 AM
+- [ ] Step 10: tests 1 to 6 pass
